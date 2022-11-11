@@ -1,0 +1,128 @@
+.section-404 {
+    background: url("../images/404-bg.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 8.5vw;
+    min-height: 100vh;
+    position: relative;
+}
+.error-img{
+    height: 18.3vw;
+    margin-bottom: 2.9vw;
+}
+
+.error-title{
+    font-family: 'Rubik Bold';
+    font-size: 3.3vw;
+    line-height: 4vw;
+    color: #657CF1;
+}
+
+.error-subtitle{
+    font-family: 'Rubik Bold';
+    font-size: 1.4vw;
+    line-height: 1.7vw;
+    text-align: center;
+    color: rgba(180, 180, 180, 0.68);
+    margin: 0 auto 2vw;
+    width: 36%;
+}
+
+.error-btns{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.error-btn__img1{
+    height: 2vw;
+    margin-right: 1vw;
+}
+.error-btn__img2{
+    height: 2vw;
+    margin-right: .4vw;
+}
+.error-btn{
+    background: #2F00B6;
+    border-radius: 2.2vw;
+    margin: 0 1.6vw;
+    border: none;
+    font-family: 'Rubik Bold';
+    font-size: 1.4vw;
+    line-height: 4.5vw;
+    color: #FFFFFF;
+}
+.error-btn:hover{
+    background: #D9534F;
+}
+.error-btn__l{
+    padding: 0 3.1vw 0 2vw;
+}
+.error-btn__r{
+    padding: 0 2.5vw 0 2.7vw;
+}
+.section-404__footer{
+    background: #000428;
+    line-height: 1.1vw;
+    font-family: 'Open Sans Regular';
+    font-size: .6vw;
+    color: #9C9C9C;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    .section-404 {
+        padding-top: 18.3vw;
+    }
+    .error-img {
+        height: 31.8vw;
+        margin-bottom: 8.7vw;
+    }
+    .error-title {
+        font-size: 7vw;
+        line-height: 8.7vw;
+    }
+    .error-subtitle {
+        font-size: 4.2vw;
+        line-height: 5vw;
+        margin: 0 auto 5.2vw;
+        width: 76%;
+    }
+    .error-btns {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .error-btn {
+        border-radius: 5.5vw;
+        margin: 0 0 2.9vw;
+        font-size: 3.4vw;
+        line-height: 11.3vw;
+    }
+    .error-btn__img1 {
+        height: 4.9vw;
+        margin-right: 5.21vw;
+    }
+    .error-btn__img2 {
+        height: 5vw;
+        margin-right: 2.6vw;
+    }
+    .error-btn__l {
+        padding: 0 9.7vw 0 5.8vw;
+    }
+    .error-btn__r {
+        padding: 0 7.6vw 0 6.3vw;
+    }
+    .section-404__footer{
+        display: none;
+    }
+}

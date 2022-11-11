@@ -1,0 +1,60 @@
+.mCSB_scrollTools {
+  opacity: 1 !important;
+  top: 0;
+}
+.mCSB_inside>.mCSB_container {
+  margin-right: 0;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+  background: #4F4F4F;
+  width: 4px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background: #F8FF13 !important;
+  width: 4px;
+  &:hover {
+    background-color: #F8FF13;
+  }
+}
+
+/* touch-scroll */
+.mCustomScrollbar {
+  touch-action: initial;
+}
+
+.mCustomScrollbar,
+.mCustomScrollbar.mCS_touch_action,
+.mCustomScrollbar.mCS_touch_action .mCS-aviva.mCSB_scrollTools {
+  -ms-touch-action: auto;
+  touch-action: auto;
+}
+
+.mCustomScrollBox {
+  -ms-touch-action: pan-x;
+  touch-action: pan-x;
+}
+
+.mCustomScrollBox.mCSB_vertical_horizontal {
+  -ms-touch-action: auto;
+  touch-action: auto;
+}
+
+.mCustomScrollBox.mCSB_horizontal {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+
+/* END touch-scroll */
+
+
+@include media('screen', '>1440px') {
+  .mCSB_scrollTools .mCSB_draggerRail {
+    width: 8px;
+  }
+  .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 8px;
+  }
+}
+
+
+

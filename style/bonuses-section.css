@@ -1,0 +1,371 @@
+.bonuses-section {
+    padding: 2.2vw 0 9.3vw;
+    background: url("../images/bonus-bg.jpg") bottom no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    position: relative;
+}
+.section-header-wrap .container{
+    overflow: hidden;
+}
+.section-header:before {
+    content: '';
+    height: 1px;
+    width: 120vh;
+    background-color: #000;
+    position: absolute;
+    left: 21.3vh;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.section-header__img {
+    height: 5.7vh;
+    margin-right: 1vh;
+}
+
+.section-header__title {
+    font-family: 'Open Sans Bold';
+    font-size: 2.5vh;
+    line-height: 3.4vh;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #fff;
+    z-index: 1;
+    padding-right: 1vw;
+}
+
+.bonuses-cards-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+
+.bonus-card {
+    background: -o-linear-gradient(352.46deg, #2F113E 17.62%, rgba(58, 61, 133, 0.8) 132.75%);
+    background: linear-gradient(97.54deg, #2F113E 17.62%, rgba(58, 61, 133, 0.8) 132.75%);
+    border-radius: .8vw;
+    margin-bottom: 1.4vw;
+    position: relative;
+}
+
+.bonus-card__img {
+    position: absolute;
+    bottom: 0;
+}
+
+.bonus-card__lg {
+    padding: 6.1vw 0 4.3vw 4.2vw;
+    width: 100%;
+}
+
+.bonus-card__lg img {
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+.bonus-card-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    z-index: 1;
+    position: relative;
+}
+
+.bonus-card-description__text-white {
+    font-family: 'Open Sans SemiBold';
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.bonus-card-description__text-pink {
+    font-family: 'Open Sans ExtraBold';
+    text-transform: uppercase;
+    color: #D100E3;
+}
+
+.bonus-card__lg h2 {
+    font-size: 1.4vw;
+    line-height: 1.9vw;
+    font-family: 'Open Sans SemiBold';
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.bonus-card__lg h3 {
+    font-size: 1.9vw;
+    line-height: 2.6vw;
+    margin-bottom: 1.6vw;
+    font-family: 'Open Sans ExtraBold';
+    text-transform: uppercase;
+    color: #D100E3;
+}
+
+.bonus-card-description .btn-main__pink {
+    width: 9.4vw;
+    font-size: .8vw;
+    line-height: 2vw;
+}
+
+.bonus-card-description .btn-main__pink:hover {
+    background: #3b78a4;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.bonus-card__lg .btn-main__pink {
+    margin-left: 1.3vw;
+}
+
+.bonus-card__md {
+    width: calc(50% - .7vw);
+    padding: 2.7vw 0 2.8vw 3.3vw;
+}
+
+.bonus-card__img__3{
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+.bonus-card__md h2 {
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+    margin: 0 0 1.1vw;
+    font-family: 'Open Sans SemiBold';
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.bonus-card__md h2:nth-child(1) {
+    font-size: 1vw;
+    line-height: 1.4vw;
+    margin: 0;
+}
+
+.bonus-card__md h3 {
+    font-size: 1.8vw;
+    line-height: 2.5vw;
+    font-family: 'Open Sans ExtraBold';
+    text-transform: uppercase;
+    color: #D100E3;
+}
+
+.bonus-card__sm{
+    width: calc(33.3% - 1vw);
+    padding: 2vw 3.4vw 1.4vw;
+    height: 9.9vw;
+    margin-bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bonus-card__sm .bonus-card-description{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bonus-card__sm__f .bonus-card-description__text-white {
+    font-size: 1.1vw;
+    line-height: 1.6vw;
+    margin: 0;
+}
+
+.bonus-card__sm__f .bonus-card-description__text-pink {
+    font-size: .9vw;
+    line-height: 1.4vw;
+    margin-bottom: 1.6vw;
+}
+
+.bonus-card__sm__s .bonus-card-description__text-white {
+    font-size: .6vw;
+    line-height: .9vw;
+    margin-bottom: .7vw;
+}
+
+.bonus-card__sm__s .bonus-card-description__text-pink {
+    font-size: 1.2vw;
+    line-height: 1.4vw;
+}
+
+.bonus-card__sm__t .bonus-card-description__text-white {
+    font-size: 1.4vw;
+    line-height: 1.9vw;
+    margin: .1vw 0 0;
+}
+
+.bonus-card__sm__t .bonus-card-description__text-pink {
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    margin-bottom: 1.1vw;
+}
+
+.bonus-card__lg h3 br,
+.bonus-card__img__5,
+.section-bg__mob {
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+    .bonuses-section .container {
+        width: 55.3vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    .bonuses-section .container {
+        width: 584px;
+    }
+    .section-header:before {
+        width: 48vh;
+    }
+}
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    .bonuses-section {
+        padding: 9.2vw 0 25.2vw;
+        background: #fff;
+    }
+    .section-bg__mob {
+        position: absolute;
+        bottom: -6.6vw;
+        left: 0;
+        height: 29.9vw;
+        display: inline-block;
+    }
+    .bonuses-cards-list {
+        margin-top: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .bonus-card {
+        border-radius: 2.9vw;
+        margin-bottom: 3.4vw;
+    }
+    .section-header-wrap{
+        display: none;
+    }
+    .bonus-card__lg {
+        padding: 5.8vw 2.9vw 6vw;
+    }
+    .bonus-card-description .btn-main__pink {
+        width: 33.6vw;
+        font-size: 3.1vw;
+        line-height: 7vw;
+        font-family: 'Jost-SemiBold';
+    }
+    .bonus-card__lg .btn-main__pink {
+        margin-left: 0;
+    }
+    .bonus-card__lg h2 {
+        font-size: 3.9vw;
+        line-height: 5.5vw;
+    }
+    .bonus-card__lg h3 {
+        font-size: 5.2vw;
+        line-height: 7.3vw;
+        margin-bottom: 2.6vw;
+        text-align: left;
+    }
+    .bonus-card__lg h3 br {
+        display: inline-block;
+    }
+    .bonus-card__md {
+        width: 100%;
+        padding: 6.6vw 2.9vw 4.2vw;
+    }
+    .bonus-card__md h2 {
+        font-size: 4.9vw;
+        line-height: 7vw;
+        margin: 0 0 1vw;
+        font-family: 'Open Sans SemiBold';
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .bonus-card__md h2:nth-child(1) {
+        font-size: 4.2vw;
+        line-height: 5.2vw;
+    }
+    .bonus-card__md h3 {
+        font-size: 7.9vw;
+        line-height: 10.8vw;
+    }
+    .bonus-card__sm {
+        width: 100%;
+        padding: 8.7vw 1vw 7.6vw;
+        height: auto;
+    }
+    .bonus-card__sm__f .bonus-card-description__text-white {
+        font-size: 5.8vw;
+        line-height: 7.9vw;
+    }
+    .bonus-card__sm__f .bonus-card-description__text-pink {
+        font-size: 4.7vw;
+        line-height: 6.8vw;
+        margin-bottom: 2vw;
+    }
+    .bonus-card__sm__s .bonus-card-description__text-pink {
+        font-size: 6vw;
+        line-height: 115%;
+        margin-bottom: 0;
+    }
+    .bonus-card__sm__s .bonus-card-description__text-white {
+        font-size: 3.1vw;
+        line-height: 4.5vw;
+        margin: 1vw 0 2vw;
+    }
+    .bonus-card__sm__t .bonus-card-description__text-white {
+        font-size: 7vw;
+        line-height: 9.7vw;
+        margin: .2vw 0 0;
+    }
+    .bonus-card__sm__t .bonus-card-description__text-pink {
+        font-size: 5.5vw;
+        line-height: 7.6vw;
+        margin-bottom: 2vw;
+    }
+}

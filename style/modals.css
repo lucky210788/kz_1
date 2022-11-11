@@ -1,0 +1,834 @@
+.form-request-call {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.form-request-call__title {
+    font-family: 'Open Sans Bold';
+    font-size: 2.9vh;
+    line-height: 4vh;
+    color: #222222;
+    margin-bottom: 1.5vw;
+}
+
+.form-request-call__field {
+    font-family: 'Open Sans SemiBold';
+    width: 42.6vh;
+    font-size: 2.3vh;
+    line-height: 6.6vh;
+    padding: 0 3.3vh;
+    border-radius: 3.3vh;
+    border: none;
+    color: #767676;
+    margin-bottom: 1.5vw;
+    background-color: #ECECEC;
+}
+
+.form-request-call .btn-main__red {
+    width: 22.2vh;
+    font-weight: 600;
+    line-height: 6.2vh;
+}
+
+#requestCallModal .modal-dialog {
+    width: 61.8vh;
+}
+
+#requestCallModal .modal-content {
+    padding: 3vh 0;
+    border-radius: 3.8vh;
+    position: relative;
+}
+
+.request-call__close {
+    height: 3.9vh;
+    position: absolute;
+    right: 1vh;
+    top: 2vh;
+    cursor: pointer;
+}
+
+.chat-header {
+    background-color: #121741;
+    padding: 2.7vh 0 3.3vh 5vh;
+    position: relative;
+}
+
+.chat-header__title {
+    font-family: 'Open Sans Bold';
+    font-size: 2.6vh;
+    line-height: 3.5vh;
+    color: #fff;
+}
+
+.chat-header__subtitle {
+    font-family: 'Open Sans Regular';
+    font-size: 1.9vh;
+    line-height: 2.7vh;
+    color: #fff;
+}
+
+.chat-header__img {
+    height: 6.6vh;
+    position: absolute;
+    left: 26.4vh;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.chat-header__close {
+    height: 3.9vh;
+    position: absolute;
+    right: 1.2vh;
+    top: .5vh;
+    cursor: pointer;
+}
+
+.chat-messages-send-message {
+    padding: 3.9vh 2.75vh 2.2vh;
+    background-color: #fff;
+}
+
+.chat-messages {
+    margin-bottom: 2.75vh;
+    max-height: 30vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.chat-messages > div {
+    margin-bottom: .8vh;
+}
+
+.chat-messages__message {
+    font-family: 'Open Sans SemiBold';
+    font-size: 1.9vh;
+    line-height: 1;
+    padding: 1.8vh 4.2vh;
+    border-radius: 3.1vh;
+    color: #464646;
+    background-color: #ECECEC;
+    display: inline-block;
+}
+
+.chat-messages__message:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.chat-send-message-block {
+    position: relative;
+    background-color: #F7F7F7;
+    border-radius: 2.2vh;
+    padding: 2.9vh 2.2vh .9vh;
+}
+
+.chat-send-message-block__textarea {
+    resize: none;
+    height: 7.5vh;
+    width: 86%;
+    font-family: 'Open Sans SemiBold';
+    font-size: 1.9vh;
+    line-height: 2.2vh;
+    color: #B9B9B9;
+    background: none;
+    border: none;
+}
+
+.chat-send-message-block__send {
+    cursor: pointer;
+    height: 4.5vh;
+    position: absolute;
+    right: 2.2vh;
+    top: 2.7vh;
+}
+
+.send-message-naw {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.send-message-naw__first {
+    height: 3.75vh;
+    cursor: pointer;
+}
+
+.send-message-naw__second {
+    height: 3.75vh;
+    margin: 0 1.9vh;
+    cursor: pointer;
+}
+
+.send-message-naw__third {
+    height: 3.1vh;
+    cursor: pointer;
+}
+
+#helpModal .modal-dialog {
+    width: 60.3vh;
+    background: none;
+}
+
+#helpModal .modal-content {
+    border-radius: 2.2vh;
+    overflow: hidden;
+    background: none;
+    border: none;
+}
+
+#registerModal .modal-content,
+#loginModal .modal-content {
+    flex-direction: row;
+    position: relative;
+    border: none;
+}
+
+#registerModal .modal-dialog,
+#loginModal .modal-dialog {
+    border-radius: 1.6vw;
+    overflow: hidden;
+}
+
+.form-login {
+    padding: .9vw 2.7vw 3.3vw 1.8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23.6vw;
+}
+
+.login-bg {
+    height: 25.7vw;
+}
+
+.form-login__title {
+    font-family: 'Open Sans SemiBold';
+    font-size: 1.4vw;
+    line-height: 1.9vw;
+    margin-bottom: 1.6vw;
+}
+
+.form-login__row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(100% - 1vw);
+    margin-bottom: .7vw;
+}
+
+.form-login__label {
+    font-family: 'Open Sans Regular';
+    font-size: 1vw;
+    line-height: 1.4vw;
+    color: #000000;
+    margin-bottom: .2vw;
+    padding-left: 1vw;
+}
+
+.form-login__input-wrap {
+    width: 100%;
+    padding: 0 3.1vw 0 1.9vw;
+    position: relative;
+    background: #F3F3F3;
+    border-radius: 1.35vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.form-login__input {
+    width: 100%;
+    font-family: 'Open Sans SemiBold';
+    font-size: 1.3vw;
+    line-height: 3vw;
+    color: #767676;
+    border: none;
+    background: none;
+}
+
+.form-login__img {
+    height: 1.4vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1.3vw;
+    cursor: pointer;
+}
+
+.form-login__btn {
+    background: #D9534F;
+    font-family: 'Open Sans SemiBold';
+    font-size: 1.2vw;
+    line-height: 3vw;
+    border-radius: .9vh;
+    border: none;
+    color: #fff;
+    padding: 0 3.4vw;
+}
+
+.form-login__btn:hover {
+    background: #143AD7;
+}
+
+.form-login__a {
+    font-family: 'Open Sans SemiBold';
+    font-size: .6vw;
+    line-height: 1.1vw;
+    color: #7C7C7C;
+    text-decoration: none;
+}
+
+.form-login__checkbox__label {
+    font-family: 'Open Sans SemiBold';
+    font-size: .9vw;
+    line-height: 1.2vw;
+    color: #000000;
+}
+
+.form-login__checkbox-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.form-login__checkbox {
+    border: 1px solid #143AD7;
+    border-radius: .3vw;
+    width: 1.6vw;
+    height: 1.6vw;
+    margin-right: .6vw;
+}
+
+.form-login__row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: .7vw 0 2.1vw;
+    padding-left: .8vw;
+}
+
+.login-modal__close {
+    height: 2.1vw;
+    position: absolute;
+    right: 1.6vw;
+    top: 1.2vw;
+    cursor: pointer;
+}
+
+.register-modal-left {
+    background: #2A0B6D;
+    position: relative;
+    width: 24vw;
+}
+
+.register-modal-left__img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.register-modal-left__img__1 {
+    height: 100%;
+    width: 100%;
+}
+
+.register-modal-left__img__2 {
+    height: 75%;
+    left: -1px;
+}
+
+.form-register__title {
+    font-size: 1vw;
+    line-height: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.form-register {
+    padding: 1.3vw 1.8vw 1.9vw;
+    width: 23.4vw;
+}
+
+.form-register__row {
+    width: 100%;
+    margin-bottom: .2vw;
+}
+
+.form-register__label {
+    font-size: .7vw;
+    line-height: 1vw;
+    padding-left: 1.25vw;
+}
+
+.form-register__input-wrap {
+    padding: 0 2.8vw 0 1.6vw;
+    border-radius: 1.8vw;
+}
+
+.form-register__input {
+    font-size: 1vw;
+    line-height: 3.3vw;
+}
+
+.form-register____show-pass {
+    height: 1.8vw;
+    right: 1vw;
+}
+
+.form-register__btn {
+    font-size: .8vw;
+    line-height: 2.4vw;
+    border-radius: .5vh;
+    padding: 0 1.7vw;
+}
+
+.form-register__row2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.1vw 0 1.9vw;
+}
+
+.form-login__checkbox {
+    border-radius: .5vw;
+    margin-right: .7vw;
+    border: 2px solid #143AD7;
+}
+
+.form-register__checkbox__p {
+    font-family: 'Open Sans Regular';
+    font-size: .7vw;
+    line-height: 1vw;
+    color: #000000;
+    text-align: left;
+}
+
+.form-register__checkbox__a {
+    color: #143AD7;
+}
+
+
+.form-register .selectize-control.single .selectize-input > input {
+    font-family: 'Open Sans SemiBold';
+    font-style: normal;
+    color: #767676;
+    width: 100% !important;
+    font-size: 1vw;
+}
+
+.form-register .selectize-control.single .selectize-input,
+.form-register .selectize-dropdown.single {
+    font-family: 'Open Sans SemiBold';
+    font-size: 1vw;
+    color: #767676;
+    font-style: normal;
+    border: none;
+    text-align: center;
+    background: #F3F3F3;
+    border-radius: 1.35vw;
+    padding: 0 2.8vw 0 1.6vw;
+}
+
+.form-register .selectize-dropdown.single {
+    padding: 0;
+}
+
+.form-register .selectize-control.single .selectize-input:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 1.35vw;
+    background: url(../images/select-arr.svg) no-repeat;
+    background-size: contain;
+    width: .7vw;
+    height: .4vw;
+    cursor: pointer;
+    z-index: 11;
+}
+
+.form-register .selectize-dropdown, .player-cabinet-content .selectize-input,
+.form-register .selectize-input input {
+    color: #000;
+    font-family: 'Open Sans SemiBold';
+    font-size: .7vw;
+    line-height: 2.1vw !important;
+}
+
+.form-register .selectize-input {
+    padding: 0 .5vw;
+    border-radius: 1vw;
+    height: 3.3vw;
+}
+
+.form-register .selectize-control {
+    width: 100%;
+}
+
+.form-register .selectize-input .item {
+    line-height: 3.3vw;
+}
+
+.form-register .selectize-control.single .selectize-input.input-active {
+    border-radius: 1vw 1vw 0 0;
+}
+
+.form-register .selectize-dropdown.single {
+    border-radius: 0 0 1vw 1vw;
+}
+.form-register .iti--allow-dropdown input,
+.form-register .iti--allow-dropdown input[type=text],
+.form-register .iti--allow-dropdown input[type=tel],
+.form-register .iti--separate-dial-code input,
+.form-register .iti--separate-dial-code input[type=text],
+.form-register .iti--separate-dial-code input[type=tel] {
+    width: 100%;
+    font-family: 'Open Sans SemiBold';
+    font-size: 1vw;
+    line-height: 3.3vw;
+    color: #767676;
+    border: none;
+    background: none;
+}
+
+@media (min-width: 576px) {
+    #loginModal .modal-dialog {
+        max-width: 41.4vw;
+    }
+
+    #registerModal .modal-dialog {
+        max-width: 47.4vw;
+        margin: 13% auto;
+    }
+    #loginModal .modal-dialog {
+        margin: 13% auto;
+    }
+}
+
+@media (max-width: 575px) and (orientation: landscape) {
+    #loginModal .modal-dialog {
+        max-width: 41.4vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #helpModal .modal-dialog {
+        position: fixed;
+        top: auto;
+        right: 0;
+        left: auto;
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #helpModal .modal-dialog,
+    #requestCallModal .modal-dialog {
+        width: 95%;
+    }
+
+    #requestCallModal .modal-content {
+        padding: 16px 0 20px;
+        border-radius: 21px;
+    }
+
+    .form-request-call__title {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 18px;
+    }
+
+    .form-request-call__field {
+        width: 80%;
+        font-size: 16px;
+        line-height: 56px;
+        padding: 0 23px;
+        border-radius: 18px;
+        margin-bottom: 10px;
+    }
+
+    .form-request-call .btn-main__red {
+        width: 156px;
+        line-height: 45px;
+        font-size: 14px;
+    }
+
+    .chat-header__close {
+        height: 41px;
+        right: 17px;
+        top: 1px;
+    }
+
+    .chat-header {
+        padding: 7px 0 9px 53px;
+    }
+
+    .chat-header__title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .chat-header__subtitle {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .chat-header__img {
+        height: 30px;
+        left: 198px;
+    }
+
+    .chat-messages-send-message {
+        padding: 17px 11px 13px;
+    }
+
+    .chat-messages {
+        margin-bottom: 12px;
+    }
+
+    .chat-messages > div {
+        margin-bottom: 4px;
+    }
+
+    .chat-messages__message {
+        font-size: 12px;
+        padding: 8px 18px;
+        border-radius: 13px;
+        color: #000;
+    }
+
+    .chat-send-message-block {
+        border-radius: 13px;
+        padding: 14px 13px 10px;
+    }
+
+    .chat-send-message-block__textarea {
+        height: 64px;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000;
+    }
+
+    .chat-send-message-block__textarea::-webkit-input-placeholder {
+        color: #000;
+    }
+
+    .chat-send-message-block__textarea::-moz-placeholder {
+        color: #000;
+    }
+
+    .chat-send-message-block__textarea:-ms-input-placeholder {
+        color: #000;
+    }
+
+    .chat-send-message-block__textarea:-moz-placeholder {
+        color: #000;
+    }
+
+    .send-message-naw__first {
+        height: 28px;
+    }
+
+    .send-message-naw__second {
+        height: 28px;
+        margin: 0 20px;
+    }
+
+    .send-message-naw__third {
+        height: 26px;
+    }
+
+    .chat-send-message-block__send {
+        height: 30px;
+        right: 10px;
+        top: 15px;
+    }
+
+    .request-call__close {
+        height: 35px;
+        right: 5px;
+        top: 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    #loginModal .modal-dialog {
+        max-width: 98vw;
+    }
+    .register-modal-left__img,
+    .login-bg {
+        display: none;
+    }
+
+    #registerModal .modal-dialog,
+    #loginModal .modal-dialog {
+        border-radius: 7.8vw;
+    }
+
+    .login-modal__close {
+        height: 10.7vw;
+        right: 4.5vw;
+        top: 6.8vw;
+    }
+
+    .form-login {
+        padding: 6.8vw 1.8vw 11vw;
+        width: 100%;
+    }
+
+    .form-login__title {
+        font-size: 7vw;
+        line-height: 9.7vw;
+        margin-bottom: 4.2vw;
+    }
+
+    .form-login__row {
+        width: 100%;
+        margin-bottom: 2.9vw;
+    }
+
+    .form-login__label {
+        font-size: 5vw;
+        line-height: 6.8vw;
+        margin-bottom: 1.6vw;
+        padding-left: 11.8vw;
+    }
+
+    .form-login__input-wrap {
+        padding: 0 12vw 0 5vw;
+        border-radius: 6.8vw;
+    }
+
+    .form-login__input {
+        font-size: 4.2vw;
+        line-height: 18.6vw;
+    }
+
+    .form-login__img {
+        height: 5.2vw;
+        right: 5vw;
+    }
+
+    .form-login__row2 {
+        margin: 4.9vw 0 5.7vw;
+        padding-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-login__checkbox {
+        border-radius: 1.6vw;
+        width: 7.9vw;
+        height: 7.9vw;
+        margin-right: 2.9vw;
+    }
+
+    .form-login__checkbox__label {
+        font-size: 4.5vw;
+        line-height: 6vw;
+    }
+
+    .form-login__a {
+        font-size: 4.2vw;
+        line-height: 5.8vw;
+    }
+
+    .form-login__checkbox-wrap {
+        margin-bottom: 3.4vw;
+    }
+
+    .form-login__btn {
+        font-size: 6.6vw;
+        line-height: 17.6vw;
+        border-radius: 4.7vh;
+        padding: 0 20.7vw;
+    }
+    .form-register__btn {
+        padding: 0 12vw;
+    }
+    .form-register__row2 {
+        margin: 8.7vw 0 9.4vw;
+    }
+    .form-register__checkbox__p {
+        font-size: 4.2vw;
+        line-height: 5.5vw;
+    }
+
+    .form-register .selectize-control.single .selectize-input, .form-register .selectize-dropdown.single {
+        font-size: 4.2vw;
+        border-radius: 6.8vw;
+        padding: 0 2.8vw 0 1.6vw;
+    }
+    .form-register .selectize-input {
+        padding: 0 .5vw;
+        border-radius: 6.8vw;
+        height: 18.6vw;
+    }
+
+    .form-register .selectize-control.single .selectize-input > input {
+        font-size: 4.2vw;
+    }
+
+    .form-register .selectize-control.single .selectize-input,
+    .form-register .selectize-dropdown.single {
+        font-size: 4.2vw;
+        border-radius: 6.8vw;
+        padding: 0 12vw 0 5vw;
+    }
+
+    .form-register .selectize-control.single .selectize-input:before {
+        right: 1.35vw;
+        width: .7vw;
+        height: .4vw;
+    }
+
+    .form-register .selectize-dropdown, .player-cabinet-content .selectize-input,
+    .form-register .selectize-input input {
+        font-size: .7vw;
+        line-height: 18.6vw!important;
+    }
+
+    .form-register .selectize-input {
+        padding: 0 12vw 0 5vw;
+        border-radius: 6.8vw;
+        height: 18.6vw;
+    }
+
+    .form-register .selectize-input .item {
+        line-height: 18.6vw;
+    }
+
+    .form-register .selectize-control.single .selectize-input.input-active {
+        border-radius: 6.8vw 6.8vw 0 0;
+    }
+
+    .form-register .selectize-dropdown.single {
+        border-radius: 0 0 6.8vw 6.8vw;
+    }
+    .form-register .iti--allow-dropdown input,
+    .form-register .iti--allow-dropdown input[type=text],
+    .form-register .iti--allow-dropdown input[type=tel],
+    .form-register .iti--separate-dial-code input,
+    .form-register .iti--separate-dial-code input[type=text],
+    .form-register .iti--separate-dial-code input[type=tel] {
+        font-size: 4.2vw;
+        line-height: 18.6vw;
+    }
+}

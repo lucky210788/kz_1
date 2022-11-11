@@ -1,0 +1,704 @@
+.slick-dots li button {
+    width: 14px;
+    height: 14px;
+}
+
+.banners-slider .slick-dots {
+    bottom: 8px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: auto;
+}
+
+.banners-slider .slick-dots li.slick-active button {
+    position: relative;
+}
+
+.banners-slider .slick-dots li.slick-active button:before {
+    background-color: #ec5353;
+}
+
+.banners-slider .slick-dots li button::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 1;
+}
+
+.banner {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #000;
+    position: relative;
+}
+
+.banner-wrap {
+    height: 0;
+    padding: 0 0 30.73%;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+.banner-wrap1 {
+    background-image: url("../images/banner-bg1.jpg");
+    background-size: cover;
+}
+
+.banner-wrap2 {
+    background-image: url("../images/banner-bg2.jpg");
+    background-size: cover;
+}
+
+.banner-wrap3 {
+    background-image: url("../images/banner-bg3.jpg");
+    background-size: cover;
+}
+
+.banner-wrap4 {
+    background-image: url("../images/banner-bg4.jpg");
+    background-size: cover;
+}
+
+.banner-wrap5 {
+    background-image: url("../images/banner-bg5.jpg");
+    background-size: cover;
+}
+
+.banner-wrap img {
+    width: auto;
+    position: absolute;
+}
+
+.banner__text {
+    left: 20.3%;
+    position: absolute;
+}
+
+.banner__text1 {
+    font-family: 'Montserrat';
+    font-size: 2.6vh;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.96);
+    top: 24%;
+}
+
+.banner__text2 {
+    font-family: 'Jost-SemiBold';
+    font-size: 7.4vh;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    top: 30%;
+}
+
+.banner__text3 {
+    font-family: 'Jost-SemiBold';
+    font-size: 10.1vh;
+    text-transform: uppercase;
+    color: #DA0FC5;
+    top: 42.4%;
+}
+
+.banner__text4 {
+    font-family: 'Jost';
+    font-size: 3.7vh;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    top: 62.9%;
+}
+
+.banner .banner__btn {
+    position: absolute;
+    width: 23.7vh;
+    font-size: 1.8vh;
+    line-height: 5.4vh;
+    background: #D9534F;
+    bottom: 15.5%;
+}
+
+.banner .banner__btn:hover {
+    background: #3b78a4;
+}
+
+.banner__man {
+    bottom: 0;
+}
+
+.banner__man1 {
+    height: 100%;
+    right: 32.6%;
+}
+
+.banner__man2 {
+    height: 92.7%;
+    right: 14.6%;
+}
+
+.banner__man3 {
+    height: 91.9%;
+    right: 20.31%;
+}
+
+.banner__man3 {
+    height: 91.9%;
+    right: 20.31%;
+}
+
+.banner__man4 {
+    height: 86.6%;
+    right: 42.8%;
+}
+
+.banner__man5 {
+    height: 89.5%;
+    right: 20.2%;
+}
+
+.banner__man6 {
+    height: 100%;
+    right: 33.3%;
+}
+
+.banner__man7 {
+    height: 76.2%;
+    right: 33.9%;
+}
+
+.banner__man8 {
+    height: 92.7%;
+    right: 17%;
+}
+
+.banner__man9 {
+    height: 100%;
+    right: 33.6%;
+}
+
+.banner__man10 {
+    height: 106%;
+    right: 9.2%;
+    bottom: -7%;
+}
+
+.banner__man11 {
+    height: 63.6%;
+    right: 45.4%;
+}
+
+.banner__man12 {
+    height: 98%;
+    right: 23.4%;
+}
+
+.banner__man13 {
+    height: 100.8%;
+    right: 13.4%;
+}
+
+.hide-img {
+    opacity: 0;
+}
+
+.banner__text1__animation {
+    -webkit-animation: animation-banner__text1 5s linear;
+    animation: animation-banner__text1 5s linear;
+}
+
+.banner__text2__animation {
+    -webkit-animation: animation-banner__text2 5s linear;
+    animation: animation-banner__text2 5s linear;
+}
+
+.banner__text3__animation {
+    -webkit-animation: animation-banner__text3 5s linear;
+    animation: animation-banner__text3 5s linear;
+}
+
+.banner__text4__animation {
+    -webkit-animation: animation-banner__text4 5s linear;
+    animation: animation-banner__text4 5s linear;
+}
+
+.banner__btn__animation {
+    -webkit-animation: animation-banner__btn 5s linear;
+    animation: animation-banner__btn 5s linear;
+}
+
+@-webkit-keyframes animation-banner__text1 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    5% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    6% {
+        opacity: 1;
+    }
+    12% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1)
+    }
+    99.7% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    99.8% {
+        opacity: 0;
+    }
+}
+
+@keyframes animation-banner__text1 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    5% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    6% {
+        opacity: 1;
+    }
+    12% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1)
+    }
+    99.7% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    99.8% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes animation-banner__text2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    10% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    11% {
+        opacity: 1;
+    }
+    17% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1)
+    }
+    99.7% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    99.8% {
+        opacity: 0;
+    }
+}
+
+@keyframes animation-banner__text2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    10% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    11% {
+        opacity: 1;
+    }
+    17% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1)
+    }
+    99.7% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    99.8% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes animation-banner__text3 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    15% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    16% {
+        opacity: 1;
+    }
+    22% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1)
+    }
+    99.7% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    99.8% {
+        opacity: 0;
+    }
+}
+
+@keyframes animation-banner__text3 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    15% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    16% {
+        opacity: 1;
+    }
+    22% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1)
+    }
+    99.7% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    99.8% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes animation-banner__text4 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    20% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    21% {
+        opacity: 1;
+    }
+    27% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1)
+    }
+    99.7% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    99.8% {
+        opacity: 0;
+    }
+}
+
+@keyframes animation-banner__text4 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    20% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    21% {
+        opacity: 1;
+    }
+    27% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1)
+    }
+    99.7% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    99.8% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes animation-banner__btn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    25% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    26% {
+        opacity: 1;
+    }
+    32% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1)
+    }
+    99.7% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    99.8% {
+        opacity: 0;
+    }
+}
+
+@keyframes animation-banner__btn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    25% {
+        opacity: 0;
+        -webkit-transform: translateY(50px) scale(.7);
+        transform: translateY(50px) scale(.7)
+    }
+    26% {
+        opacity: 1;
+    }
+    32% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1)
+    }
+    99.7% {
+        -webkit-transform: translateY(0) scale(1);
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    99.8% {
+        opacity: 0;
+    }
+}
+
+.animated {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    opacity: 1;
+}
+
+.fadeInRotate {
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-name: fadeInRotate;
+    animation-name: fadeInRotate
+}
+
+@-webkit-keyframes fadeInRotate {
+    0% {
+        opacity: 0;
+        -webkit-transform: rotate(240deg) translateX(-150px);
+        transform: rotate(240deg) translateX(-150px)
+    }
+    20% {
+        opacity: 0;
+        -webkit-transform: rotate(240deg) translateX(-150px);
+        transform: rotate(240deg) translateX(-150px)
+    }
+    40% {
+        opacity: 1;
+        -webkit-transform: rotate(360deg) translateX(0);
+        transform: rotate(360deg) translateX(0)
+    }
+    99.8% {
+        opacity: 1;
+    }
+    99.9% {
+        opacity: 0;
+        -webkit-transform: rotate(360deg) translateX(0);
+        transform: rotate(360deg) translateX(0)
+    }
+}
+
+@keyframes fadeInRotate {
+    0% {
+        opacity: 0;
+        -webkit-transform: rotate(240deg) translateX(-150px);
+        transform: rotate(240deg) translateX(-150px)
+    }
+    20% {
+        opacity: 0;
+        -webkit-transform: rotate(240deg) translateX(-150px);
+        transform: rotate(240deg) translateX(-150px)
+    }
+    40% {
+        opacity: 1;
+        -webkit-transform: rotate(360deg) translateX(0);
+        transform: rotate(360deg) translateX(0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: rotate(360deg) translateX(0);
+        transform: rotate(360deg) translateX(0)
+    }
+}
+
+
+@media only screen and (max-width: 170vh) and (orientation: landscape) {
+    .banner__text {
+        left: 19.3%;
+    }
+}
+
+@media only screen and (max-width: 160vh) and (orientation: landscape) {
+    .banner__text {
+        left: 18.3%;
+    }
+}
+
+@media only screen and (max-width: 135vh) and (orientation: landscape) {
+    .banner .banner__btn {
+        width: 18.7vh;
+        line-height: 4.4vh;
+    }
+
+    .banner__text1 {
+        font-size: 2.1vh;
+    }
+
+    .banner__text2 {
+        font-size: 6vh;
+    }
+
+    .banner__text3 {
+        font-size: 8.3vh;
+    }
+
+    .banner__text4 {
+        font-size: 3.1vh;
+    }
+}
+
+@media only screen and (max-width: 125vh) and (orientation: landscape) {
+    .banner__text {
+        left: 17.3%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .slick-dots li {
+        width: 8px;
+        height: 8px;
+    }
+
+    .slick-dots li button {
+        width: 8px;
+        height: 8px;
+    }
+
+    .banners-slider .slick-dots {
+        bottom: 5px;
+    }
+
+    .banners-slider .slick-dots li button::before {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    .banner .banner__btn {
+        width: 17.7vw;
+        font-size: 1.8vw;
+        line-height: 3.4vw;
+        bottom: 13.5%;
+    }
+
+    .banner__text {
+        left: 9.9%;
+    }
+
+    .banner__text1 {
+        font-size: 1.9vw;
+        top: 17.4%;
+    }
+
+    .banner__text2 {
+        font-size: 5.5vw;
+        top: 24.6%;
+    }
+
+    .banner__text3 {
+        font-size: 7.2vw;
+        top: 40.6%;
+    }
+
+    .banner__text4 {
+        font-size: 2.7vw;
+        top: 63.4%;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .banner .banner__btn {
+        left: 10.5%;
+        border-radius: 0.8vw;
+        bottom: 10.5%;
+    }
+
+    .banner-wrap {
+        padding: 0 0 36.73%;
+    }
+
+    .banner-wrap1 {
+        background-image: url("../images/banner-bg-mob.jpg");
+    }
+
+    .banner__man1 {
+        height: 100%;
+        right: 23.8%;
+    }
+
+    .banner__man2 {
+        height: 93%;
+        right: 0;
+    }
+
+    .banner__man3 {
+        height: 92.3%;
+        right: 6.8%;
+    }
+}

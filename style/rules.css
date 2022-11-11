@@ -1,0 +1,107 @@
+.rules-section {
+    padding: 2.8vw 0 6.4vw;
+    background: url("../images/bonus-bg.jpg") bottom no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.rules-section-header {
+    padding-left: 7.6vw;
+    margin-block: 1vw;
+}
+
+.rules-section-header .section-header__title {
+    background-color: #fff;
+    z-index: 1;
+    padding-right: 1vw;
+    text-align: left;
+}
+
+.rules-section-header:before {
+    left: 12.3vw;
+}
+
+.rules-detail-card {
+    background: url("../images/rules-bg.png") #F8F8F8 bottom no-repeat;
+    background-size: cover;
+    border-radius: 1.7vw;
+    padding: 2.4vw 3.6vw 2.6vw;
+    margin-top: 2vw;
+}
+
+.rules-detail-card li,
+.rules-detail-card p {
+    font-family: 'Open Sans SemiBold';
+    font-size: .9vw;
+    line-height: 1.3vw;
+    color: #393939;
+    text-align: left;
+}
+
+@media (min-width: 1200px) {
+    .rules-section  .container {
+        width: 1060px;
+    }
+}
+@media only screen and (max-width: 178vh) and (orientation: landscape) {
+    .rules-section  .container {
+        width: 66vw;
+    }
+}
+@media only screen and (max-width: 170vh) and (orientation: landscape) {
+    .rules-section  .container {
+        width: 71vw;
+    }
+}
+@media only screen and (max-width: 160vh) and (orientation: landscape) {
+    .rules-section  .container {
+        width: 71vw;
+    }
+}
+@media only screen and (max-width: 135vh) and (orientation: landscape) {
+    .rules-section  .container {
+        width: 80vw;
+    }
+}
+@media only screen and (max-width: 125vh) and (orientation: landscape) {
+    .rules-section  .container {
+        width: 86vw;
+    }
+}
+@media only screen and (min-width: 200vh) and (orientation: landscape) {
+    .rules-section  .container {
+        width: 69vw;
+    }
+}
+@media only screen and (min-width: 205vh) and (orientation: landscape) {
+    .rules-section  .container {
+        width: 68vw;
+    }
+}
+@media only screen and (min-width: 216vh) and (orientation: landscape) {
+    .rules-section  .container {
+        width: 67vw;
+    }
+}
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    .section-header-wrap {
+        display: block;
+    }
+    .rules-section-header {
+        overflow: hidden;
+    }
+    .rules-detail-card li,
+    .rules-detail-card p {
+        font-size: 4.5vw;
+        line-height: 6.8vw;
+    }
+    .rules-detail-card {
+        background: #F8F8F8;
+        border-radius: 3vw;
+        padding: 4vw 14vw 4vw 5vw;
+    }
+}
+
+

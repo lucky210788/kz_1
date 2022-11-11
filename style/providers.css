@@ -1,0 +1,236 @@
+.btn-providers {
+    margin-left: 8px;
+    padding: 8px 16px 8px 0;
+    border: none;
+    background-color: inherit;
+}
+
+.btn-providers__text {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #005;
+    font-weight: 700;
+}
+
+.btn-providers__text__open {
+    display: none;
+}
+
+.btn-providers__open .btn-providers__text__close {
+    display: none;
+}
+
+.btn-providers__open .btn-providers__text__open {
+    display: inline-block;
+}
+
+.btn-providers__img{
+    width: 20px;
+    height: auto;
+    display: none;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.providers-block {
+    display: none;
+}
+
+.providers-block_open {
+    display: inline-block;
+}
+
+.providers-list {
+    margin: 8px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.provider-block {
+    background-color: #fff;
+    height: 60px;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    overflow: hidden;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.provider-block__a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.provider-block__img {
+    width: auto;
+    max-width: 118px;
+    height: auto;
+}
+
+.providers-block-header {
+    background-color: #1F3968;
+    padding: 8px 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.providers-block-header__close {
+    height: 20px;
+    width: auto;
+}
+
+.providers-block-header__text {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1025px) {
+    .provider-block {
+        width: 147px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .provider-block {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .o-hidden {
+        overflow: hidden;
+    }
+    .providers-block {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #f6f6f6;
+        z-index: 2;
+        overflow-y: auto;
+    }
+
+    .provider-block {
+        width: 150px;
+    }
+
+    .provider-block:nth-child(6n + 6) {
+        margin-right: 0;
+    }
+
+    .providers-list {
+        width: 940px;
+        margin: 44px auto 8px;
+    }
+
+    .provider-block__img {
+        max-width: 128px;
+    }
+    .btn-providers__img{
+        display: inline-block;
+    }
+    .btn-providers{
+        background-color: #1F3968;
+        padding: 8px;
+        min-width: 32px;
+    }
+    .btn-providers__text{
+        display: none!important;
+    }
+}
+
+@media only screen and (max-width: 955px) {
+    .provider-block:nth-child(6n + 6) {
+        margin-right: 8px;
+    }
+
+    .provider-block:nth-child(5n + 5) {
+        margin-right: 0;
+    }
+
+    .providers-list {
+        width: 782px;
+    }
+}
+
+@media only screen and (max-width: 797px) {
+    .provider-block:nth-child(5n + 5) {
+        margin-right: 8px;
+    }
+
+    .provider-block:nth-child(4n + 4) {
+        margin-right: 0;
+    }
+
+    .providers-list {
+        width: 624px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .provider-block:nth-child(4n + 4) {
+        margin-right: 8px;
+    }
+
+    .provider-block:nth-child(3n + 3) {
+        margin-right: 0;
+    }
+
+    .providers-list {
+        width: 466px;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .provider-block:nth-child(3n + 3) {
+        margin-right: 8px;
+    }
+
+    .provider-block:nth-child(2n + 2) {
+        margin-right: 0;
+    }
+
+    .providers-list {
+        width: 308px;
+    }
+}
+
+@media only screen and (max-width: 323px) {
+    .provider-block {
+        margin-right: 0;
+    }
+
+    .providers-list {
+        width: 150px;
+    }
+}

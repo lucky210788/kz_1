@@ -1,0 +1,80 @@
+.btn-main {
+    font-family: 'Jost';
+    font-style: normal;
+    width: 16.7vh;
+    font-weight: 500;
+    font-size: 1.6vh;
+    line-height: 3.7vh;
+    border-radius: .8vh;
+    border: none;
+    color: #fff;
+}
+
+.btn-main__pink {
+    background: #E65DE9;
+}
+
+.btn-main__pink:hover {
+    -webkit-box-shadow: 0 0 16.5px 3px rgba(252, 98, 255, 0.25);
+    box-shadow: 0 0 16.5px 3px rgba(252, 98, 255, 0.25);
+}
+
+.btn-main__blue {
+    background: #143AD7;
+}
+
+.btn-main__blue:hover {
+    -webkit-box-shadow: 0 0 16.5px 3px rgba(47, 130, 255, 0.42);
+    box-shadow: 0 0 16.5px 3px rgba(47, 130, 255, 0.42);
+}
+
+.btn-main__dark-blue {
+    background: #121741;
+}
+
+.btn-main__dark-blue:hover {
+    -webkit-box-shadow: 0 0 16.5px 3px rgba(18, 23, 65, .25);
+    box-shadow: 0 0 16.5px 3px rgba(18, 23, 65, .25);
+}
+
+.btn-main__red {
+    background: #D9534F;
+}
+
+.btn-main__red:hover {
+    -webkit-box-shadow: 0 0 16.5px 3px rgba(217, 83, 79, .25);
+    box-shadow: 0 0 16.5px 3px rgba(217, 83, 79, .25);
+}
+
+.btn-main__transparent{
+    border: 2px solid #000000;
+    background: none;
+    color: #000;
+    margin-right: 25px;
+    width: 65px;
+    font-size: 13px;
+    line-height: 33px;
+    /*text-transform: uppercase;*/
+    font-family: 'Open Sans SemiBold';
+    font-style: normal;
+}
+
+.btn-main__transparent:hover {
+   background: #000;
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .btn-main {
+        width: 49vw;
+        font-size: 3.7vw;
+        line-height: 11vw;
+        z-index: 1;
+        border-radius: 1.8vw;
+    }
+
+    .btn-main__pink {
+        width: 52.2vw;
+        font-size: 4.7vw;
+    }
+}

@@ -1,0 +1,522 @@
+.about-us-section {
+    padding-bottom: 8.75vw;
+    position: relative;
+}
+
+.about-us-content {
+    position: relative;
+    padding-top: 2vw;
+}
+
+.about-us-content__img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.about-us-content__img__mob {
+    display: none;
+}
+
+.about-us-content-header-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-bottom: 10.6vw;
+}
+
+.about-us-content-header-wrap > div {
+    width: 50%;
+    text-align: left;
+    padding-left: 4.8vw;
+}
+
+.about-us-content-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 21.5vw;
+}
+
+.about-us-content-header__title {
+    font-family: 'Rubik Bold';
+    font-size: 2.3vw;
+    line-height: 2.7vw;
+    color: #1B0E43;
+    margin-bottom: 2vw;
+    text-align: left;
+}
+
+.about-us-content-header__text {
+    font-family: 'Rubik Medium';
+    font-size: 1.2vw;
+    line-height: 1.4vw;
+    color: #1B1B1B;
+    text-align: left;
+}
+
+.our-history {
+
+}
+
+.our-history__title {
+    font-family: 'Rubik Bold';
+    font-size: 2.3vw;
+    line-height: 2.7vw;
+    color: #1B0E43;
+    position: relative;
+    margin-bottom: 3.4vw;
+}
+
+.our-history__title:before {
+    content: '';
+    width: 1px;
+    height: 2.8vw;
+    background-color: #AEAEAE;
+    position: absolute;
+    bottom: -3.1vw;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.our-history__year {
+    font-family: 'Rubik Bold';
+    font-size: 1.8vw;
+    line-height: 2.1vw;
+    color: #AEAEAE;
+}
+
+.our-history-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 1.1vw;
+    padding-bottom: 2.9vw;
+}
+
+.our-history-block:before {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: #AEAEAE;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.our-history-block__img {
+    height: 14.8vw;
+}
+
+.our-history-block__img__5 {
+    height: 13.5vw;
+}
+
+.our-history-block__l .our-history-block__img {
+    margin-right: 4.2vw;
+}
+
+.our-history-block__r .our-history-block__img {
+    margin-left: 4.8vw;
+}
+
+.our-history-block__p {
+    font-family: 'Rubik Medium';
+    font-size: 1.5vw;
+    line-height: 1.7vw;
+    color: #AEAEAE;
+    text-align: left;
+    width: 22.6vw;
+    position: relative;
+}
+
+.our-history-block__l .our-history-block__p {
+    margin-left: 4.8vw;
+}
+
+.our-history-block__r .our-history-block__p {
+    margin-right: 4.2vw;
+}
+
+.our-history-block__p__1:before {
+    content: '';
+    width: 7.2vw;
+    height: 7.2vw;
+    background: url("../images/our-history2.svg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 1.2vw;
+    right: -1.2vw;
+    z-index: -1;
+}
+
+.our-history-block__p__2:before {
+    content: '';
+    width: 5.8vw;
+    height: 5.8vw;
+    background: url("../images/our-history4.svg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 1.2vw;
+    right: -2.3vw;
+    z-index: -1;
+}
+
+.our-history-block__p__3:before {
+    content: '';
+    width: 6.3vw;
+    height: 6.3vw;
+    background: url("../images/our-history6.svg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 1.2vw;
+    right: -1.2vw;
+    z-index: -1;
+}
+
+.our-history-block__p__4:before {
+    content: '';
+    width: 6.9vw;
+    height: 6.9vw;
+    background: url("../images/our-history8.svg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -0.4vw;
+    right: 2.7vw;
+    z-index: -1;
+}
+
+.our-history-block__p__5:before {
+    content: '';
+    width: 5.3vw;
+    height: 5.3vw;
+    background: url("../images/our-history10.svg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 1.2vw;
+    right: 2.8vw;
+    z-index: -1;
+}
+
+.our-partners {
+    background: url("../images/our-partners1.jpg") no-repeat;
+    background-size: cover;
+    padding: 4.2vw 0;
+}
+
+.our-partners .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.our-partners__title {
+    font-family: 'Rubik Bold';
+    font-size: 3.2vw;
+    line-height: 3.75vw;
+    color: #FFFFFF;
+    margin-bottom: 3.4vw;
+}
+
+.our-partners__img__1 {
+    height: 9vw;
+    margin-bottom: 4vw;
+}
+
+.our-partners__img__2 {
+    height: 5.7vw;
+}
+
+@media (min-width: 1200px) {
+    .about-us-section .container {
+        width: 1060px;
+    }
+}
+
+@media only screen and (max-width: 178vh) and (orientation: landscape) {
+    .about-us-section .container {
+        width: 66vw;
+    }
+}
+
+@media only screen and (max-width: 170vh) and (orientation: landscape) {
+    .about-us-section .container {
+        width: 71vw;
+    }
+}
+
+@media only screen and (max-width: 160vh) and (orientation: landscape) {
+    .about-us-section .container {
+        width: 71vw;
+    }
+}
+
+@media only screen and (max-width: 135vh) and (orientation: landscape) {
+    .about-us-section .container {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 125vh) and (orientation: landscape) {
+    .about-us-section .container {
+        width: 86vw;
+    }
+}
+
+@media only screen and (min-width: 200vh) and (orientation: landscape) {
+    .about-us-section .container {
+        width: 69vw;
+    }
+}
+
+@media only screen and (min-width: 205vh) and (orientation: landscape) {
+    .about-us-section .container {
+        width: 68vw;
+    }
+}
+
+@media only screen and (min-width: 216vh) and (orientation: landscape) {
+    .about-us-section .container {
+        width: 67vw;
+    }
+}
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    .about-us-section {
+        padding-bottom: 4.2vw;
+    }
+
+    .questions-answers-header {
+        padding: 10vw 0 10.4vw;
+    }
+
+    .questions-answers-header__h2 {
+        font-size: 11.5vw;
+        line-height: 12vw;
+    }
+
+    .questions-answers-header__p {
+        font-size: 8.9vw;
+        line-height: 10.5vw;
+    }
+
+    .about-us-content__img {
+        display: none;
+    }
+
+    .about-us-content__img__mob {
+        display: inline-block;
+    }
+
+    .about-us-content {
+        padding-top: 11.3vw;
+    }
+
+    .about-us-content-header-wrap > div {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .about-us-content-header {
+        width: 100%;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+    }
+
+    .about-us-content-header__title {
+        font-size: 7.9vw;
+        line-height: 9.4vw;
+        margin-bottom: 51.2vw;
+        width: 44%;
+    }
+
+    .about-us-content-header__text {
+        font-size: 4.7vw;
+        line-height: 5.5vw;
+    }
+
+    .about-us-content-header-wrap {
+        margin-bottom: 20.5vw;
+    }
+
+    .our-history__title {
+        font-size: 7.6vw;
+        line-height: 8.9vw;
+        margin-bottom: 2.6vw;
+    }
+
+    .our-history__title:before {
+        display: none;
+    }
+
+    .our-history__year {
+        font-size: 6.6vw;
+        line-height: 7.9vw;
+        text-align: left;
+    }
+
+    .our-history-block__img {
+        height: 44.9vw;
+        margin-bottom: 10.8vw;
+    }
+
+    .our-history-block__img__5 {
+        height: 40.7vw;
+    }
+
+    .our-history-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-top: 2.6vw;
+        padding-bottom: 10.5vw;
+    }
+
+    .our-history-block__r {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .our-history-block__r .our-history-block__p,
+    .our-history-block__l .our-history-block__img {
+        margin-right: 0;
+    }
+
+    .our-history-block__r .our-history-block__img,
+    .our-history-block__l .our-history-block__p {
+        margin-left: 0;
+    }
+
+    .our-history-block__p {
+        font-size: 4.7vw;
+        line-height: 5.5vw;
+        width: 65.6vw;
+        text-align: right;
+    }
+
+    .our-history-block:before {
+        height: 97%;
+        top: 50%;
+        left: 7%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .our-history-block__p__1:before {
+        width: 36.2vw;
+        height: 36.2vw;
+        top: 50%;
+        right: -13.2vw;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .our-history-block__p__2:before {
+        content: '';
+        width: 29.1vw;
+        height: 29.1vw;
+        top: -0.8vw;
+        right: -17.2vw;
+    }
+
+    .our-history-block__p__3:before {
+        content: '';
+        width: 31.8vw;
+        height: 31.8vw;
+        top: -0.8vw;
+        right: -4.2vw;
+    }
+
+    .our-history-block__p__4:before {
+        content: '';
+        width: 24.7vw;
+        height: 24.7vw;
+        top: -0.8vw;
+        right: -4.2vw;
+    }
+
+    .our-history-block__p__5:before {
+        content: '';
+        width: 26.5vw;
+        height: 26.5vw;
+        top: -0.8vw;
+        right: -4.2vw;
+    }
+
+    .our-history-block__p__2 {
+        padding-bottom: 5.2vw;
+    }
+
+    .our-history-block__p__3 {
+        padding-bottom: 18.3vw;
+    }
+
+    .our-history-block__p__4 {
+        padding-bottom: 18.3vw;
+    }
+
+    .our-history-block__p__5 {
+        padding-bottom: 7.3vw;
+    }
+
+    .our-history-block__last:before {
+        display: none;
+    }
+
+    .our-partners {
+        padding: 7.3vw 0 14.4vw;
+    }
+
+    .our-partners__title {
+        font-size: 5.8vw;
+        line-height: 6.8vw;
+        margin-bottom: 7.3vw;
+    }
+
+    .our-partners__img__1 {
+        height: 18.9vw;
+        margin-bottom: 9.7vw;
+    }
+
+    .our-partners__img__2 {
+        height: 15.2vw;
+    }
+}

@@ -1,0 +1,160 @@
+.bonus-section {
+    padding: 2.2vw 0 5.3vw;
+    background: url("../images/bonus-bg.jpg") bottom no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bonus-detail-card {
+    margin-top: 2.6vh;
+    background: -o-linear-gradient(352.46deg, #2F113E 17.62%, rgba(58, 61, 133, 0.99) 132.75%);
+    background: linear-gradient(97.54deg, #2F113E 17.62%, rgba(58, 61, 133, 0.99) 132.75%);
+    border-radius: 1.5vh;
+    padding: 13.1vh 2.8vh 5.6vh 5.6vh;
+    position: relative;
+}
+
+.bonus-detail-card img {
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.bonus-detail-card .btn-main__pink {
+    width: 12.6vw;
+    font-size: 1vw;
+    line-height: 2.7vw;
+    margin-top: 2.9vw;
+}
+
+.bonus-detail-card .btn-main__pink:hover {
+    background: #3b78a4;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.bonus-detail-card h3 {
+    font-family: 'Open Sans Bold';
+    font-size: 1.4vw;
+    line-height: 1.9vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+.bonus-detail-card h4 {
+    font-family: 'Open Sans ExtraBold';
+    font-size: 1.9vw;
+    line-height: 2.6vw;
+    text-transform: uppercase;
+    color: #9800A6;
+    margin-bottom: 8.6vw;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+.bonus-detail-card h5 {
+    font-family: 'Open Sans ExtraBold';
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+    text-transform: uppercase;
+    color: #9800A6;
+    margin-bottom: .6vw;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+.bonus-detail-card p {
+    font-family: 'Open Sans Regular';
+    font-size: .9vw;
+    line-height: 1.4vw;
+    color: #fff;
+    margin-bottom: 1.8vw;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 1200px) {
+    .bonus-section  .container {
+        width: 1060px;
+    }
+}
+@media only screen and (max-width: 178vh) and (orientation: landscape) {
+    .bonus-section  .container {
+        width: 72.6vw;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .bonus-section .container {
+        width: 55.3vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    .bonus-detail-card h4 {
+        margin-bottom: 5.72vh;
+    }
+}
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    .bonus-section {
+        padding: 9.2vw 0 25.2vw;
+        background: #fff;
+    }
+
+    .bonus-detail-card {
+        margin-top: 0;
+        background: -o-linear-gradient(352.46deg, #2F113E 17.62%, rgba(58, 61, 133, 0.99) 132.75%);
+        background: linear-gradient(97.54deg, #2F113E 17.62%, rgba(58, 61, 133, 0.99) 132.75%);
+        border-radius: 2.9vw;
+        padding: 5.8vw 4.7vw 7.3vw;
+    }
+
+    .bonus-detail-card .btn-main__pink {
+        width: 53.46vw;
+        font-size: 4.62vw;
+        line-height: 11.11vw;
+        margin-top: 13.86vw;
+    }
+
+    .bonus-detail-card h3 {
+        font-size: 4.29vw;
+        line-height: 6.05vw;
+    }
+
+    .bonus-detail-card h4 {
+        font-size: 5.72vw;
+        line-height: 8.03vw;
+        margin-bottom: 23.98vw;
+        width: 30.8vw;
+        color: #D100E3;
+    }
+
+    .for-desc {
+        display: none;
+    }
+
+    .bonus-detail-card img {
+        top: 0;
+    }
+    .bonus-detail-card h5 {
+        font-size: 5.72vw;
+        line-height: 7.7vw;
+        margin-bottom: 3.41vw;
+        color: #EF5CFC;
+        width: 55vw;
+    }
+    .bonus-detail-card p {
+        font-size: 4.95vw;
+        line-height: 7.48vw;
+        margin-bottom: 2.2vw;
+    }
+}

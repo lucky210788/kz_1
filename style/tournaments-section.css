@@ -1,0 +1,603 @@
+.tournaments-section {
+    padding: 5.2vh 0 16.7vh;
+    background: url("../images/bonus-bg.jpg") bottom no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.tournaments-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-top: 1.25vw;
+}
+
+.tournament-card {
+    background: #1E1E1E;
+    border-radius: 1.45vw;
+    padding: 1.25vw 4.4vw 2vw 21.9vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    position: relative;
+    margin-bottom: 2.18vw;
+    width: 100%;
+}
+
+.tournament-card-games {
+    margin-right: 1.2vw;
+}
+
+.tournament-card-games__title {
+    font-family: 'Open Sans Bold';
+    font-size: .7vw;
+    line-height: .9vw;
+    color: #CDCDCD;
+    text-align: left;
+    margin-bottom: .8vw;
+}
+
+.tournament-card-games__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 13.4vw;
+}
+
+.tournament-card-games__img__lg {
+    margin-right: .88vw;
+    margin-bottom: .78vw;
+}
+
+.tournament-card-games__img img {
+    height: 3.9vw;
+    border-radius: .6vw;
+}
+
+.tournament-card-games__img__sm {
+    margin-right: .83vw;
+}
+
+.tournament-card-games__img_mr {
+    margin-right: 0 !important;
+}
+
+.tournament-card-description {
+    padding-left: 1.6vw;
+    border-left: 0.5px solid rgba(211, 163, 203, 0.64);
+}
+
+.time-play-game {
+    margin-bottom: .67vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding-top: .25vw;
+}
+
+.time-play-game__date-time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.time-play-game__date-time__p {
+    font-family: 'Open Sans Bold';
+    font-size: .57vw;
+    line-height: .78vw;
+    text-transform: uppercase;
+    color: #CDCDCD;
+}
+
+.time-play-game__date-time__red {
+    color: #FF1B1B;
+}
+
+.time-play-game__p {
+    font-family: 'Open Sans Bold';
+    font-size: .57vw;
+    line-height: .78vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 1vw;
+}
+
+.time-play-game__img {
+    height: 1.3vw;
+    margin-right: .4vw;
+    position: relative;
+    top: -.3vw;
+}
+
+.prize-fund {
+    background: #323232;
+    border-radius: .4vw;
+    padding: .4vw .9vw .4vw .5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: .6vw;
+}
+
+.prize-fund__p {
+    font-family: 'Open Sans Bold';
+    font-size: .52vw;
+    line-height: .7vw;
+    color: #FFFFFF;
+    margin: 0 1vw 0 .4vw;
+}
+
+.prize-fund__img {
+    height: 1vw;
+}
+
+.prize-fund__bonus {
+    font-family: 'Open Sans Bold';
+    font-size: .8vw;
+    line-height: 1vw;
+    text-transform: uppercase;
+    color: #FF1B1B;
+}
+
+.tournament-card-description__p {
+    font-family: 'Open Sans SemiBold';
+    font-size: .5vw;
+    line-height: .7vw;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: .3vw;
+}
+
+.tournament-card-description__footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.tournament-card-btn {
+    font-family: 'Open Sans ExtraBold';
+    font-size: .41vw;
+    line-height: 1.9vw;
+    background: #FF1B1B;
+    border-radius: .4vw;
+    color: #FFFFFF;
+    padding: 0 .7vw;
+    border: none;
+}
+
+.tournament-card-btn:hover {
+    background: #143AD7;
+}
+
+.tournament-card-timer {
+    background: #323232;
+    border-radius: .4vw;
+    padding: .3vw .6vw .5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: .6vw;
+}
+
+.tournament-card-timer__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.tournament-card-timer__text {
+    font-family: 'Open Sans Regular';
+    font-weight: 300;
+    font-size: .31vw;
+    line-height: .41vw;
+    color: #FFFFFF;
+}
+
+.tournament-card-timer__block__main {
+    margin-right: .26vw;
+    position: relative;
+}
+
+.tournament-card-timer__block__main:before {
+    content: ':';
+    font-family: 'Open Sans Bold';
+    font-size: .7vw;
+    line-height: 1vw;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: -.3vw;
+}
+
+.tournament-card-timer__num {
+    font-family: 'Open Sans Bold';
+    font-size: .7vw;
+    line-height: 1vw;
+    color: #FFFFFF;
+    margin-bottom: .52vw;
+}
+
+.tournament-card__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.tournament-card__title {
+    font-family: 'Open Sans Bold';
+    font-size: 1.9vw;
+    line-height: 95.2%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    text-shadow: 0 0 24.9101px rgba(253, 143, 255, 0.46);
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 1.8vw;
+    width: 25%;
+}
+
+.tournament-card__img__mob {
+    display: none;
+}
+
+@media only screen and (max-width: 180vh) and (orientation: landscape) {
+    .tournaments-section .container {
+        width: 61vw;
+    }
+}
+
+@media only screen and (max-width: 178vh) and (orientation: landscape) {
+    .tournaments-section .container {
+        width: 61vw;
+    }
+}
+
+@media only screen and (max-width: 170vh) and (orientation: landscape) {
+    .tournaments-section .container {
+        width: 71vw;
+    }
+}
+
+@media only screen and (max-width: 167vh) and (orientation: landscape) {
+    .tournaments-section .container {
+        width: 63vw;
+    }
+}
+
+@media only screen and (max-width: 160vh) and (orientation: landscape) {
+    .tournaments-section .container {
+        width: 61vw;
+    }
+}
+
+@media only screen and (max-width: 135vh) and (orientation: landscape) {
+    .tournaments-section .container {
+        width: 61vw;
+    }
+}
+
+@media only screen and (max-width: 125vh) and (orientation: landscape) {
+    .tournaments-section .container {
+        width: 64vw;
+    }
+}
+
+@media only screen and (min-width: 200vh) and (orientation: landscape) {
+    .tournaments-section .container {
+        width: 65vw;
+    }
+}
+
+@media only screen and (min-width: 205vh) and (orientation: landscape) {
+    .tournaments-section .container {
+        width: 62vw;
+    }
+}
+
+@media only screen and (min-width: 216vh) and (orientation: landscape) {
+    .tournaments-section .container {
+        width: 67vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1700px) and (orientation: landscape) {
+    .time-play-game__date-time__p {
+        font-size: .77vw;
+        line-height: .98vw;
+    }
+
+    .time-play-game__date-time__p {
+        font-size: .97vw;
+        line-height: 1.08vw;
+    }
+
+    .time-play-game__p {
+        font-size: .77vw;
+        line-height: .98vw;
+    }
+
+    .time-play-game__img {
+        height: 1.5vw;
+        top: -.7vw;
+    }
+
+    .prize-fund__p {
+        font-size: .72vw;
+        line-height: .9vw;
+    }
+
+    .prize-fund__bonus {
+        font-size: 1vw;
+        line-height: 1.2vw;
+    }
+
+    .prize-fund__img {
+        height: 1.2vw;
+    }
+
+    .tournament-card-description__p {
+        font-size: .7vw;
+        line-height: .9vw;
+    }
+
+    .tournament-card-btn {
+        font-size: 0.5vw;
+        line-height: 2vw;
+        padding: 0 .5vw;
+    }
+
+    .tournament-card-timer__text {
+        font-size: .5vw;
+        line-height: .6vw;
+    }
+
+    .tournament-card-timer__block__main:before,
+    .tournament-card-timer__num {
+        font-size: .9vw;
+        line-height: 1.2vw;
+    }
+}
+
+/*@media only screen and (min-width: 200vh) and (orientation: landscape) {*/
+/*    .tournaments-section .section-header-wrap .container,*/
+/*    .tournaments-section >.container {*/
+/*        width: 124vh;*/
+/*    }*/
+/*    .section-header:before {*/
+/*        width: 103.5vh;*/
+/*    }*/
+/*}*/
+/*@media only screen and (min-width: 205vh) and (orientation: landscape) {*/
+/*    .tournaments-section .section-header-wrap .container,*/
+/*    .tournaments-section >.container {*/
+/*        width: 125vh;*/
+/*    }*/
+/*    .section-header:before {*/
+/*        width: 101.5vh;*/
+/*    }*/
+/*}*/
+/*@media only screen and (min-width: 216vh) and (orientation: landscape) {*/
+/*    .tournaments-section .section-header-wrap .container,*/
+/*    .tournaments-section >.container {*/
+/*        width: 133vh;*/
+/*    }*/
+/*    .section-header:before {*/
+/*        width: 110vh;*/
+/*    }*/
+/*}*/
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    .tournament-card__img {
+        display: none;
+    }
+
+    .tournament-card__img__mob {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5.7vw;
+    }
+
+    .tournament-card {
+        width: 100%;
+        border-radius: 6.3vw;
+        padding: 0 0 9.1vw;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: 4.4vw;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .tournament-card-games {
+        margin-right: 0;
+        width: calc(100% - 7.8vw);
+        margin-bottom: 6.3vw;
+    }
+
+    .tournament-card-games__list {
+        width: 100%;
+    }
+
+    .tournament-card-games__title {
+        font-size: 4.5vw;
+        line-height: 6vw;
+        margin-bottom: 4.7vw;
+    }
+
+    .tournament-card-games__img__sm img,
+    .tournament-card-games__img__lg img {
+        width: 100%;
+        height: auto;
+        border-radius: 3.7vw;
+    }
+
+    .tournament-card-games__img__lg {
+        width: calc(50% - 2.6vw);
+        margin-right: 5.2vw;
+        margin-bottom: 4.7vw;
+    }
+
+    .tournament-card-games__img__sm {
+        margin-right: 4.9vw;
+        width: calc(33.3% - 3.4vw);
+    }
+
+    .tournament-card-description {
+        padding: 0 7.3vw;
+        border-left: none;
+    }
+
+    .time-play-game {
+        width: 100%;
+        margin-bottom: 4.2vw;
+        padding-top: .25vw;
+    }
+
+    .time-play-game__img {
+        height: 8.4vw;
+        margin-right: 2.6vw;
+        top: -3.3vw;
+    }
+
+    .time-play-game__p {
+        font-size: 3.7vw;
+        line-height: 5.2vw;
+        margin: 0 7vw 0 4.2vw;
+    }
+
+    .time-play-game__date-time__p {
+        font-size: 4.2vw;
+        line-height: 5.8vw;
+    }
+
+    .prize-fund {
+        border-radius: 2.4vw;
+        padding: 2.4vw 3.4vw 2vw 3.1vw;
+        margin-bottom: 3.7vw;
+    }
+
+    .prize-fund__img {
+        height: 7vw;
+    }
+
+    .prize-fund__p {
+        font-size: 3.9vw;
+        line-height: 5.2vw;
+        margin: 0 2vw 0 2.6vw;
+    }
+
+    .prize-fund__bonus {
+        font-size: 5.8vw;
+        line-height: 7.8vw;
+    }
+
+    .tournament-card-description__p {
+        font-size: 3.1vw;
+        line-height: 4.5vw;
+        margin-bottom: 1.8vw;
+    }
+
+    .tournament-card-timer {
+        border-radius: 2.4vw;
+        padding: 1.8vw 3.4vw 3.4vw 4.1vw;
+        margin-right: 3.4vw;
+    }
+
+    .tournament-card-timer__block__main {
+        margin-right: 1.6vw;
+    }
+
+    .tournament-card-timer__block__main:before {
+        font-size: 4.7vw;
+        line-height: 6.3vw;
+        right: -1.4vw;
+    }
+
+    .tournament-card-timer__num {
+        font-size: 4.7vw;
+        line-height: 6.3vw;
+        margin-bottom: 3.4vw;
+    }
+
+    .tournament-card-timer__text {
+        font-size: 2vw;
+        line-height: 2.9vw;
+    }
+
+    .tournament-card-btn {
+        font-size: 3.9vw;
+        line-height: 5.2vw;
+        border-radius: 2.4vw;
+        padding: 0 8.4vw;
+        height: 17vw;
+    }
+
+    .tournament-card__title {
+        font-family: 'Open Sans Bold';
+        font-size: 8.7vw;
+        top: 9.2vw;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        left: 50%;
+    }
+}

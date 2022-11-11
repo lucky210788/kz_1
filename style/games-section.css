@@ -343,7 +343,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 9px;
-    width: 47%;
+    width: calc(100% - 250px);
     padding: 14px 18px 13px 25px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -497,7 +497,7 @@
 
 @media only screen and (max-width: 768px) {
     .search-block {
-        width: 46.3%;
+        width: calc(100% - 160px);
         height: 33px;
         padding: 9px 6px 11px;
         top: -1px;

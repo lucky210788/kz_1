@@ -127,7 +127,6 @@
 
 .btn-add-favorites {
     display: none;
-    display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid #000000;
@@ -139,16 +138,15 @@
 }
 
 .btn-add-favorites__img {
-    background-color: #394655;
-    padding: 2px 3px 2px;
+    padding: 1px 3px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 19px;
+    height: 21px;
 }
 
 .btn-add-favorites__img img {
-    height: 13px;
+    height: 17px;
 }
 
 @media only screen and (min-width: 1025px) {

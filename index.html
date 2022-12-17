@@ -429,7 +429,7 @@
                 <!--				</select>-->
                 <button class="btn-add-favorites">
                     <div class="btn-add-favorites__img">
-                        <img src="images/star.png" alt="">
+                        <img src="images/star1.png" alt="">
                     </div>
                 </button>
                 <button type="button" class="btn-providers">
@@ -623,7 +623,7 @@
                 </div>
                 <div class="filter-btn" data-filter="books-games">
                     <div class="filter-btn__img">
-                        <img src="images/games-group10.jpg" alt="" class="filter-btn__img__3">
+                        <img src="images/games-group10.png" alt="" class="filter-btn__img__3">
                     </div>
                     <p>Книги</p>
                 </div>
@@ -675,12 +675,18 @@
                     </div>
                     <p>Горячие</p>
                 </div>
+                <div class="filter-btn filter-btn__favorites" data-filter="favorites-games">
+                    <div class="filter-btn__img">
+                        <img src="images/games-group7.svg" alt="" class="filter-btn__img__">
+                    </div>
+                    <p>Избранные</p>
+                </div>
             </div>
         </div>
         <div class="grid">
             <div class="games-group new-games">
                 <div class="games-group-header">
-                    <img src="images/games-group1.svg" alt="" class="games-group-header__img1">
+                    <img src="images/games-group1.svg" alt="" class="games-group-header__img">
                     <p class="games-group-header__name">Новинки</p>
                     <div class="games-group-header__line"></div>
                     <p class="games-group-header__all"><span class="showAll">Показать все (94)</span><span
@@ -688,118 +694,131 @@
                     </p>
                 </div>
                 <div class="games-grid">
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="1">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href=""class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="2">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
-                            <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" type="button"  class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" type="button"  class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="3">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="4">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="5">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="6">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="7">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="8">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="9">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="10">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="11">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="12">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="13">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
@@ -820,118 +839,131 @@
                     </p>
                 </div>
                 <div class="games-grid">
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="14">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="15">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="16">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="17">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="18">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="19">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="20">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="21">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="22">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="23">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="24">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="25">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="26">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
@@ -952,118 +984,131 @@
                     </p>
                 </div>
                 <div class="games-grid">
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="27">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="28">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="29">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="30">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="31">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="32">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="33">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="34">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="35">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="36">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="37">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="39">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="38">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
@@ -1076,7 +1121,7 @@
             </div>
             <div class="games-group books-games">
                 <div class="games-group-header">
-                    <img src="images/games-group10.jpg" alt="" class="games-group-header__img2">
+                    <img src="images/games-group10.png" alt="" class="games-group-header__img2">
                     <p class="games-group-header__name">Книги</p>
                     <div class="games-group-header__line"></div>
                     <p class="games-group-header__all"><span class="showAll">Показать все (94)</span><span
@@ -1084,118 +1129,131 @@
                     </p>
                 </div>
                 <div class="games-grid">
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="40">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="41">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="42">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="43">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="44">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="45">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="46">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="47">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="48">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="49">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="50">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="51">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="52">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
@@ -1216,118 +1274,131 @@
                     </p>
                 </div>
                 <div class="games-grid">
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="53">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="54">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="55">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="56">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="57">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="58">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="59">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="60">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="61">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="62">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="63">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="64">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="65">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
@@ -1348,118 +1419,131 @@
                     </p>
                 </div>
                 <div class="games-grid">
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="66">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="67">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="68">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="69">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="70">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="71">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="72">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="73">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="74">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="75">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="76">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="77">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="78">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
@@ -1480,118 +1564,131 @@
                     </p>
                 </div>
                 <div class="games-grid">
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="79">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="80">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="81">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="82">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="83">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="84">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="85">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="86">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="87">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="88">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="89">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="90">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="91">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
@@ -1612,118 +1709,131 @@
                     </p>
                 </div>
                 <div class="games-grid">
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="92">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="93">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="94">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="95">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="96">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="97">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="98">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="99">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="100">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="101">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="102">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="103">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="104">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
@@ -1744,118 +1854,131 @@
                     </p>
                 </div>
                 <div class="games-grid">
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="105">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="106">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="107">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="108">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="109">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="110">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="111">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="112">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="113">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="114">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="115">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="116">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="117">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
@@ -1876,118 +1999,131 @@
                     </p>
                 </div>
                 <div class="games-grid">
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="118">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="119">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="120">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="121">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="122">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="123">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="124">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="125">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="126">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="127">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="128">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="129">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="130">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
@@ -2008,118 +2144,131 @@
                     </p>
                 </div>
                 <div class="games-grid">
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="131">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="132">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="133">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="134">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="135">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="136">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="137">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="138">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="139">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="140">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="141">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="142">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="143">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
@@ -2140,123 +2289,152 @@
                     </p>
                 </div>
                 <div class="games-grid">
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="144">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="145">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="146">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="147">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="148">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="149">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="150">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="151">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="152">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item">
+                    <div class="games-grid__item"  data-grid-item-id="153">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="154">
                         <img src="images/game2.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Eternal Lady</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="155">
                         <img src="images/game3.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Tiger Claw</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
-                    <div class="games-grid__item games-grid__item__hide">
+                    <div class="games-grid__item games-grid__item__hide"  data-grid-item-id="156">
                         <img src="images/game1.jpg" alt="" class="games-grid__img">
                         <div class="game-hover-block">
                             <a href="" class="game-hover-block__favorite"><img src="images/star.png" alt=""></a>
+                            <a href="" class="game-hover-block__favorite game-hover-block__favorite-active"><img src="images/star-favorite.png" alt=""></a>
                             <p class="game-hover-block__name">Books of Kings 2</p>
                             <a class="game-hover-block__btn game-hover-block__btn__first" href="#">Играть на деньги</a>
                             <a class="game-hover-block__btn game-hover-block__btn__second" href="#">Демо</a>
                         </div>
                     </div>
+                </div>
+                <button class="btn-main btn-main__dark-blue games-group__btn"><span
+                        class="showAll">Смотреть все</span><span
+                        class="hideAll">Скрыть все</span></button>
+            </div>
+            <div class="games-group favorites-games">
+                <div class="games-group-header">
+                    <img src="images/star1.png" alt="" class="games-group-header__img7">
+                    <p class="games-group-header__name">Избранные</p>
+                    <div class="games-group-header__line"></div>
+                    <p class="games-group-header__all"><span class="showAll">Показать все (94)</span><span
+                            class="hideAll">Скрыть все (94)</span>
+                    </p>
+                </div>
+                <div class="games-grid">
+
                 </div>
                 <button class="btn-main btn-main__dark-blue games-group__btn"><span
                         class="showAll">Смотреть все</span><span

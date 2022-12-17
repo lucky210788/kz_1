@@ -232,7 +232,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #fff;
     padding: 4px 3px;
     position: absolute;
     top: 10px;
@@ -241,6 +240,18 @@
 
 .game-hover-block__favorite img {
     height: 15px;
+}
+
+.game-hover-block__favorite-active {
+    display: none;
+}
+
+.games-grid__item__favorite .game-hover-block__favorite {
+    display: none;
+}
+
+.games-grid__item__favorite .game-hover-block__favorite-active {
+    display: inline-block;
 }
 
 .game-hover-block:before {

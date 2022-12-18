@@ -421,6 +421,10 @@
     display: none;
 }
 
+.filter-btn__img__ {
+    max-height: 38px;
+}
+
 .selectize-control {
     width: 47%;
 }

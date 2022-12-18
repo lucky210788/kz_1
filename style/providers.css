@@ -1,11 +1,14 @@
 .btn-providers {
     margin-left: 8px;
-    padding: 8px 16px 8px 0;
-    border: none;
+    /*padding: 8px 16px 8px 0;*/
     background-color: inherit;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid #000000;
+    border-radius: 9px;
+    width: 38px;
+    height: 38px;
 }
 
 .btn-providers__text {
@@ -33,12 +36,11 @@
 }
 
 .btn-providers__img {
-    width: 20px;
+    width: 25px;
     height: auto;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-    margin-right: 10px;
 }
 
 .providers-block {
@@ -208,7 +210,6 @@
 
     .btn-providers__img {
         width: 30px;
-        margin-right: 2px;
     }
 }
 
@@ -250,7 +251,11 @@
     }
 
     .btn-providers {
-        margin-left: 0;
+        width: 33px;
+        height: 33px;
+    }
+    .btn-providers__img {
+        width: 26px;
     }
 }
 

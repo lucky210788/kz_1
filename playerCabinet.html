@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+				integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style/jquery.mCustomScrollbar.css"/>
+	<link rel="stylesheet" type="text/css" href="style/jquery.mCustomScrollbar.theme.css"/>
+	<link href="style/slick/slick.css" rel="stylesheet">
+	<link href="style/slick/slick-theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="style/bsnav.min.css">
+	<link rel="stylesheet" href="style/selectize.default.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css"/>
+	<link rel="stylesheet" type="text/css" href="style/button.css"/>
+	<link rel="stylesheet" type="text/css" href="style/banner.css"/>
+	<link rel="stylesheet" type="text/css" href="style/games-section.css"/>
+	<link rel="stylesheet" type="text/css" href="style/seo-section.css"/>
+	<link rel="stylesheet" type="text/css" href="style/play-with-us-section.css"/>
+	<link rel="stylesheet" type="text/css" href="style/footer.css"/>
+	<link rel="stylesheet" type="text/css" href="style/modals.css"/>
+	<link rel="stylesheet" type="text/css" href="style/header.css"/>
+	<link rel="stylesheet" type="text/css" href="style/player-cabinet.css"/>
+	<link rel="stylesheet" type="text/css" href="style/player-cabinet-v1.01.css"/>
+	<link rel="stylesheet" href="style/intlTelInput.css">
+</head>
+<body>
+<div class="bsnav-mobile ">
+	<div class="bsnav-mobile-overlay"></div>
+	<div class="navbar"></div>
+</div>
+<header id="mainHeader" class="main-header bsnav ">
+	<div class="header-top">
+		<div class="container">
+			<ul class="header-top-list">
+				<li class="header-top-list__li header-top-list__li__active"><a href="#" class="header-top-list__a">Казино</a>
+				</li>
+				<li class="header-top-list__li"><a href="#" class="header-top-list__a">Покер</a></li>
+				<li class="header-top-list__li"><a href="#" class="header-top-list__a">спорт</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="header-main">
+		<div class="container">
+			<div class="logo-desktop-nav">
+				<a href="#"><img src="images/logo.svg" alt="" class="logo"></a>
+				<ul class="desktop-nav">
+					<li class="desktop-nav__li">
+						<a href="#" class="desktop-nav__a desktop-nav__a__1">
+							<img src="images/header1.svg" alt="">
+							все игры
+						</a>
+					</li>
+					<li class="desktop-nav__li">
+						<a href="#" class="desktop-nav__a desktop-nav__a__2">
+							<img src="images/header2.svg" alt="">
+							слоты
+						</a>
+					</li>
+					<li class="desktop-nav__li">
+						<a href="#" class="desktop-nav__a desktop-nav__a__3">
+							<img src="images/header3.svg" alt="">
+							Бонусы
+						</a>
+					</li>
+					<li class="desktop-nav-sub-menu">
+						<div>
+							<img src="images/header4.svg" alt="" class="desktop-nav-sub-menu__img1">
+							<img src="images/header5.svg" alt="" class="desktop-nav-sub-menu__img2">
+						</div>
+						<div class="sm-nav-wrap">
+							<ul class="desktop-nav-sm">
+								<li class="desktop-nav-sm__item">
+									<a href="#">
+										<img src="images/header6.svg" alt="" class="desktop-nav-sm__img">
+										<span class="desktop-nav-sm__span">Live Игры</span>
+									</a>
+								</li>
+								<li class="desktop-nav-sm__item">
+									<a href="#">
+										<img src="images/header7.svg" alt="" class="desktop-nav-sm__img">
+										<span class="desktop-nav-sm__span">Турниры</span>
+									</a>
+								</li>
+								<li class="desktop-nav-sm__item">
+									<a href="#">
+										<img src="images/header8.svg" alt="" class="desktop-nav-sm__img">
+										<span class="desktop-nav-sm__span">Отзывы</span>
+									</a>
+								</li>
+								<li class="desktop-nav-sm__item">
+									<a href="#">
+										<img src="images/header9.svg" alt="" class="desktop-nav-sm__img">
+										<span class="desktop-nav-sm__span">Касса</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="header-main__right">
+				<div class="basket-block">
+					<img src="images/basket-icon.svg" alt="" class="basket-block__img">
+					<a href="#" class="basket-block__a">1200.0</a>
+				</div>
+				<div class="gift-block">
+					<img src="images/gift-icon.svg" alt="" class="gift-block__img">
+					<a href="#" class="gift-block__a">Подарок</a>
+				</div>
+				<div class="select-lang-wrap">
+					<div class="select-lang select-lang__desc">
+						<p class="select-lang__item select-lang__item__selected">RUS</p>
+						<p class="select-lang__item select-lang__item__hide">UKR</p>
+					</div>
+				</div>
+				<button class="btn-main btn-main__transparent" data-toggle="modal" data-target="#loginModal">Вход</button>
+				<button class="btn-main btn-main__red btn-main__header" data-toggle="modal" data-target="#registerModal">
+					Регистрация
+				</button>
+				<div class="avatar-wrap">
+					<img src="images/avatar.png" alt="" class="avatar">
+					<div class="avatar-nav-wrap">
+						<ul class="avatar-nav">
+							<li class="avatar-nav__item">
+								<a href="#" class="avatar-nav__a">
+									<div class="avatar-nav__img-wrap">
+										<img src="images/mobile-nav/19.svg" alt="" class="avatar-nav__img">
+									</div>
+									Кабинет
+								</a>
+							</li>
+							<li class="avatar-nav__item">
+								<a href="#" class="avatar-nav__a">
+									<div class="avatar-nav__img-wrap">
+										<img src="images/mobile-nav/20.svg" alt="" class="avatar-nav__img">
+									</div>
+									Пополнить баланс
+								</a>
+							</li>
+							<li class="avatar-nav__item">
+								<a href="#" class="avatar-nav__a">
+									<div class="avatar-nav__img-wrap">
+										<img src="images/mobile-nav/21.svg" alt="" class="avatar-nav__img">
+									</div>
+									Выйти
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="collapse navbar-collapse">
+					<div class="navbar-nav navbar-mobile mr-0">
+						<ul class="social-list">
+							<li class="social-list__item">
+								<a href="#" class="social-list__a"><img src="images/social1.svg" alt="" class="social-list__img"/></a>
+							</li>
+							<li class="social-list__item">
+								<a href="#" class="social-list__a"><img src="images/social2.svg" alt="" class="social-list__img"/></a>
+							</li>
+							<li class="social-list__item">
+								<a href="#" class="social-list__a"><img src="images/social3.svg" alt="" class="social-list__img"/></a>
+							</li>
+							<li class="social-list__item">
+								<a href="#" class="social-list__a"><img src="images/social4.svg" alt="" class="social-list__img"/></a>
+							</li>
+							<li class="social-list__item">
+								<a href="#" class="social-list__a"><img src="images/social5.svg" alt="" class="social-list__img"/></a>
+							</li>
+							<li class="social-list__btn-close">
+								<img src="images/mobile-nav/16.svg" alt="" class="social-list__btn-close__img"/>
+							</li>
+						</ul>
+						<ul class="header-top-list header-top-list__mob">
+							<li class="header-top-list__li header-top-list__li__active"><a href="#"
+																																						 class="header-top-list__a">Казино</a>
+							</li>
+							<li class="header-top-list__li"><a href="#" class="header-top-list__a">Покер</a></li>
+							<li class="header-top-list__li"><a href="#" class="header-top-list__a">Букмекерка</a></li>
+						</ul>
+						<div class="block-avatar-basket">
+							<div class="basket-block">
+								<img src="images/basket-icon.svg" alt="" class="basket-block__img">
+								<a href="#" class="basket-block__a">1200.0</a>
+							</div>
+							<img src="images/avatar.png" alt="" class="avatar">
+						</div>
+						<div class="btns-mob-nav">
+							<button class="btn-main btn-main__transparent">Вход</button>
+							<button class="btn-main btn-main__red btn-main__header" data-toggle="modal" data-target="#registerModal">
+								Регистрация
+							</button>
+						</div>
+						<ul class="mobile-nav">
+							<li class="mobile-nav-item">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/1.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__1"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">Все игры</a>
+							</li>
+							<li class="mobile-nav-item">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/2.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__2"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">СЛОТЫ</a>
+							</li>
+							<li class="mobile-nav-item">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/3.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__3"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">БОНУСЫ</a>
+							</li>
+							<li class="mobile-nav-item">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/4.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__4"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">LIVE ИГРЫ</a>
+							</li>
+							<li class="mobile-nav-item">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/5.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__5"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">ТУРНИРЫ</a>
+							</li>
+							<li class="mobile-nav-item">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/6.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__6"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">ОТЗЫВЫ</a>
+							</li>
+							<li data-sidebar="0" class="mobile-nav-item mobile-nav-item__login">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/11.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__9"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">МОЙ ПРОФИЛЬ</a>
+							</li>
+							<li data-sidebar="1" class="mobile-nav-item mobile-nav-item__login">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/12.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__10"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">НАСТРОЙКИ</a>
+							</li>
+							<li data-sidebar="2" class="mobile-nav-item mobile-nav-item__login">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/13.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__11"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">ДОКУМЕНТЫ</a>
+							</li>
+							<li data-sidebar="3" class="mobile-nav-item mobile-nav-item__login">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/14.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__12"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">СТАТУС</a>
+							</li>
+							<li data-sidebar="4" class="mobile-nav-item">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/7.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__7"/>
+								</div>
+								<a class="mobile-nav-item__a mobile-nav-item__a__green" href="#">КАССА</a>
+							</li>
+							<li data-sidebar="5" class="mobile-nav-item mobile-nav-item__login">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/3.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__3"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">МОИ БОНУСЫ</a>
+							</li>
+							<li data-sidebar="6" class="mobile-nav-item">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/8.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__8"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">ПРОМОКОДЫ</a>
+							</li>
+							<li class="mobile-nav-item">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/9.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__8"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">Помощь</a>
+								<!--								<button class="btn-help">-->
+								<!--									<img src="images/mobile-nav/9.svg" alt="" class="btn-help__img"/>-->
+								<!--									Помощь-->
+								<!--								</button>-->
+							</li>
+							<li class="mobile-nav-item mobile-nav-item__login">
+								<div class="mobile-nav-item__img-wrap">
+									<img src="images/mobile-nav/15.svg" alt="" class="mobile-nav-item__img mobile-nav-item__img__15"/>
+								</div>
+								<a class="mobile-nav-item__a" href="#">ВЫХОД</a>
+							</li>
+						</ul>
+						<div class="btn_chat-wrap">
+							<button class="btn_chat" data-toggle="modal" data-target="#helpModal">
+								Написать в чат
+								<img src="images/mobile-nav/10.svg" alt="" class="btn_chat__img"/>
+							</button>
+						</div>
+					</div>
+				</div>
+				<button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="player-cabinet-section">
+	<header class="player-cabinet-header">
+		<div class="container">
+			<h2 class="player-cabinet-header__title">Кабинет игрока</h2>
+			<nav aria-label="breadcrumb1">
+				<ol class="breadcrumb1">
+					<li class="breadcrumb1-item"><a href="#">Главная</a></li>
+					<li class="breadcrumb1-item"><a href="#">Кабинет</a></li>
+					<li class="breadcrumb1-item active" aria-current="page">Профиль</li>
+				</ol>
+			</nav>
+		</div>
+	</header>
+	<div class="container">
+		<div class="player-cabinet-sidebar">
+			<div class="player-cabinet-sidebar-list player-cabinet-sidebar-list__mob player-cabinet-sidebar-list__active">
+				<div data-sidebar="0" class="player-cabinet-sidebar-list__btn">
+					<div class="player-cabinet-sidebar-list__btn__img-wrap">
+						<img src="images/sidebar-img1-1.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img1">
+						<img src="images/sidebar-img1.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img1 player-cabinet-sidebar-list__btn__img-hover">
+					</div>
+					<p class="player-cabinet-sidebar-list__btn__text">Профиль игрока</p>
+				</div>
+				<div data-sidebar="1" class="player-cabinet-sidebar-list__btn">
+					<div class="player-cabinet-sidebar-list__btn__img-wrap">
+						<img src="images/sidebar-img2.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img2">
+						<img src="images/sidebar-img2-1.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img2 player-cabinet-sidebar-list__btn__img-hover">
+					</div>
+					<p class="player-cabinet-sidebar-list__btn__text">Настройки</p>
+				</div>
+				<div data-sidebar="2" class="player-cabinet-sidebar-list__btn">
+					<div class="player-cabinet-sidebar-list__btn__img-wrap">
+						<img src="images/sidebar-img3.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img3">
+						<img src="images/sidebar-img3-1.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img3 player-cabinet-sidebar-list__btn__img-hover">
+					</div>
+					<p class="player-cabinet-sidebar-list__btn__text">Документы</p>
+				</div>
+				<div data-sidebar="3" class="player-cabinet-sidebar-list__btn">
+					<div class="player-cabinet-sidebar-list__btn__img-wrap">
+						<img src="images/sidebar-img4.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img4">
+						<img src="images/sidebar-img4-1.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img4 player-cabinet-sidebar-list__btn__img-hover">
+					</div>
+					<p class="player-cabinet-sidebar-list__btn__text">Статус</p>
+				</div>
+				<div data-sidebar="4" class="player-cabinet-sidebar-list__btn player-cabinet-sidebar-list__btn__active">
+					<div class="player-cabinet-sidebar-list__btn__img-wrap">
+						<img src="images/mobile-nav/7.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img5">
+						<img src="images/mobile-nav/7.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img5 player-cabinet-sidebar-list__btn__img-hover">
+					</div>
+					<p class="player-cabinet-sidebar-list__btn__text" style="color: #34BB32!important;">Касса</p>
+				</div>
+				<div data-sidebar="5" class="player-cabinet-sidebar-list__btn">
+					<div class="player-cabinet-sidebar-list__btn__img-wrap">
+						<img src="images/sidebar-img6.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img6">
+						<img src="images/sidebar-img6-1.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img6 player-cabinet-sidebar-list__btn__img-hover">
+					</div>
+					<p class="player-cabinet-sidebar-list__btn__text">Мои бонусы</p>
+				</div>
+				<div data-sidebar="6" class="player-cabinet-sidebar-list__btn">
+					<div class="player-cabinet-sidebar-list__btn__img-wrap">
+						<img src="images/sidebar-img7.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img7">
+						<img src="images/sidebar-img7-1.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img7 player-cabinet-sidebar-list__btn__img-hover">
+					</div>
+					<p class="player-cabinet-sidebar-list__btn__text">Промокод</p>
+				</div>
+			</div>
+			<div class="block-manager-tel-social">
+				<p class="manager-text">Ваш менеджер</p>
+				<p class="manager-name">Громов Игорь</p>
+				<p class="manager-tel">Тел.: <a href="tel:+380991234567">+380991234567</a></p>
+				<div class="player-cabinet-sidebar-social">
+					<a href="#">
+						<img src="images/player-cabinet1.svg" alt="" class="player-cabinet-sidebar-social__img">
+					</a>
+					<a href="#">
+						<img src="images/player-cabinet2.svg" alt=""
+								 class="player-cabinet-sidebar-social__img player-cabinet-sidebar-social__img__2">
+					</a>
+					<a href="#">
+						<img src="images/player-cabinet3.svg" alt="" class="player-cabinet-sidebar-social__img">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="player-cabinet-content d-none">
+			<p class="player-cabinet-content__title">Информация профиля</p>
+			<div class="player-cabinet-sidebar-list__btn  player-cabinet-sidebar-list__btn__active player-cabinet-sidebar-list__btn__mob">
+				<div class="player-cabinet-sidebar-list__btn__img-wrap">
+					<img src="images/sidebar-img1-1.svg" alt=""
+							 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img1">
+					<img src="images/sidebar-img1.svg" alt=""
+							 class="player-cabinet-sidebar-list__btn__img1 player-cabinet-sidebar-list__btn__img-hover">
+				</div>
+				<p class="player-cabinet-sidebar-list__btn__text">Профиль игрока</p>
+			</div>
+			<div class="player-profile-card">
+				<div class="player-profile-card__l">
+					<div class="player-profile-row">
+						<p>ФИО:</p>
+						<div>
+							<p>Иваненко Иванна Ивановна</p>
+						</div>
+					</div>
+					<div class="player-profile-row">
+						<p>Ник:</p>
+						<div>
+							<p>ivanova22</p>
+						</div>
+					</div>
+					<div class="player-profile-row">
+						<p>E-mail:</p>
+						<div>
+							<p>ivanovaivanova@ivanovamail.ru</p>
+							<button class="btn-confirm">
+								<img src="images/btn-confirm.svg" alt="">
+								Подтвердить
+							</button>
+						</div>
+					</div>
+					<div class="player-profile-row">
+						<p>Телефон:</p>
+						<div>
+							<p>+380991234567</p>
+							<button class="btn-confirm">
+								<img src="images/btn-confirm.svg" alt="">
+								Подтвердить
+							</button>
+						</div>
+					</div>
+					<div class="player-profile-row">
+						<p>Адрес:</p>
+						<div>
+							<p>Украина, Киевская область, Киев, Мира 12</p>
+						</div>
+					</div>
+				</div>
+				<div class="player-profile-card__r">
+					<div class="profile-img-wrap">
+						<img src="images/profile-img.png" alt="">
+						<div class="profile-img-wrap__hover d-none">
+							<img src="images/changing-photos.png" alt="" class="profile-img-wrap__hover__img">
+							<p class="profile-img-wrap__hover__p">Изменить</p>
+						</div>
+					</div>
+					<button class="btn-main btn-main__blue">Редактировать</button>
+				</div>
+			</div>
+		</div>
+		<div class="player-cabinet-content d-none">
+			<p class="player-cabinet-content__title">Настройки</p>
+			<div class="player-cabinet-sidebar-list__btn player-cabinet-sidebar-list__btn__active player-cabinet-sidebar-list__btn__mob">
+				<div class="player-cabinet-sidebar-list__btn__img-wrap">
+					<img src="images/sidebar-img2.svg" alt=""
+							 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img2">
+					<img src="images/sidebar-img2-1.svg" alt=""
+							 class="player-cabinet-sidebar-list__btn__img2 player-cabinet-sidebar-list__btn__img-hover">
+				</div>
+				<p class="player-cabinet-sidebar-list__btn__text">Настройки</p>
+			</div>
+			<div class="settings-wrap">
+				<form class="settings-pass">
+					<div class="settings-pass__title">
+						<p class="settings-pass__title__p">Пароль</p>
+						<img src="images/pass-img.png" alt="" class="settings-pass__title__img">
+					</div>
+					<input type="pass" class="settings-pass__input" placeholder="Старый пароль">
+					<input type="pass" class="settings-pass__input" placeholder="Новый пароль">
+					<input type="pass" class="settings-pass__input" placeholder="Повторите новый пароль">
+					<button class="btn-settings">Сохранить</button>
+				</form>
+				<form class="settings-notifications">
+					<div class="settings-notifications__title">
+						<p class="settings-notifications__p">Уведомления</p>
+						<img src="images/notifications-img.png" alt="" class="settings-notifications__img">
+					</div>
+					<div class="settings-notifications__field">
+						<input type="checkbox" id="check" name="check" class="settings-notifications__input"/>
+						<label for="check" class="settings-notifications__label">E-mail уведомления</label>
+					</div>
+					<div class="settings-notifications__field">
+						<input type="checkbox" id="check1" name="check1" class="settings-notifications__input"/>
+						<label for="check1" class="settings-notifications__label">Push уведомления</label>
+					</div>
+					<div class="settings-notifications__field">
+						<input type="checkbox" id="check2" name="check2" class="settings-notifications__input"/>
+						<label for="check2" class="settings-notifications__label">Получать SMS рассылку</label>
+					</div>
+					<button class="btn-settings">Сохранить</button>
+				</form>
+			</div>
+		</div>
+		<div class="player-cabinet-content d-none">
+			<p class="player-cabinet-content__title">Документы</p>
+			<div class="player-cabinet-sidebar-list__btn player-cabinet-sidebar-list__btn__active player-cabinet-sidebar-list__btn__mob">
+				<div class="player-cabinet-sidebar-list__btn__img-wrap">
+					<img src="images/sidebar-img3.svg" alt=""
+							 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img3">
+					<img src="images/sidebar-img3-1.svg" alt=""
+							 class="player-cabinet-sidebar-list__btn__img3 player-cabinet-sidebar-list__btn__img-hover">
+				</div>
+				<p class="player-cabinet-sidebar-list__btn__text">Документы</p>
+			</div>
+			<div class="documents-wrap">
+				<div class="file-drop-area">
+					<span class="file-msg">Перетащите файлы сюда</span>
+					<input class="file-input" type="file" multiple>
+				</div>
+				<div class="fake-btn">
+					<img src="images/fake-btn-img.png" alt="" class="fake-btn__img">
+					<p class="fake-btn__text">Выбрать</p>
+				</div>
+			</div>
+		</div>
+		<div class="player-cabinet-content d-none">
+			<p class="player-cabinet-content__title">Мой статус</p>
+			<div class="player-cabinet-sidebar-list__btn player-cabinet-sidebar-list__btn__active player-cabinet-sidebar-list__btn__mob">
+				<div class="player-cabinet-sidebar-list__btn__img-wrap">
+					<img src="images/sidebar-img4.svg" alt=""
+							 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img4">
+					<img src="images/sidebar-img4-1.svg" alt=""
+							 class="player-cabinet-sidebar-list__btn__img4 player-cabinet-sidebar-list__btn__img-hover">
+				</div>
+				<p class="player-cabinet-sidebar-list__btn__text">Статус</p>
+			</div>
+			<div class="status-wrap">
+				<p class="status-title">Текущий статус <span>НОВИЧОК</span></p>
+				<p class="status-title">До статуса <span>ЛЮБИТЕЛЬ</span> сделайте ставок на <span>300₴</span></p>
+				<div class="status-list ">
+					<div class="status-card status-card__active">
+						<p class="status-card__title">НОВИЧОК</p>
+						<img src="images/status-card-img1.png" alt="" class="status-card__img">
+						<p class="status-card__rate">0</p>
+						<div class="status-card__block cashback-block">
+							<img src="images/cashback-img.png" alt="" class="cashback-block__img">
+							<p class="cashback-block__p">Кешбек</p>
+							<p class="cashback-block__bonus">1%</p>
+						</div>
+						<div class="status-card__block payouts-block">
+							<p class="payouts-block__p">Выплаты</p>
+							<div class="payouts-block-limits">
+								<div class="payouts-block-limits__block">
+									<p class="payouts-block-limits__title">Дневной лимит</p>
+									<p class="payouts-block-limits__count">1000</p>
+								</div>
+								<div class="payouts-block-limits__block">
+									<p class="payouts-block-limits__title">Дневной лимит</p>
+									<p class="payouts-block-limits__count">1000</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="status-card">
+						<p class="status-card__title">ЛЮБИТЕЛЬ</p>
+						<img src="images/status-card-img2.png" alt="" class="status-card__img">
+						<p class="status-card__rate">300</p>
+						<div class="status-card__block cashback-block">
+							<img src="images/cashback-img.png" alt="" class="cashback-block__img">
+							<p class="cashback-block__p">Кешбек</p>
+							<p class="cashback-block__bonus">2%</p>
+						</div>
+						<div class="status-card__block payouts-block">
+							<p class="payouts-block__p">Выплаты</p>
+							<div class="payouts-block-limits">
+								<div class="payouts-block-limits__block">
+									<p class="payouts-block-limits__title">Дневной лимит</p>
+									<p class="payouts-block-limits__count">1000</p>
+								</div>
+								<div class="payouts-block-limits__block">
+									<p class="payouts-block-limits__title">Дневной лимит</p>
+									<p class="payouts-block-limits__count">1000</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="status-card">
+						<p class="status-card__title">ПРОФИ</p>
+						<img src="images/status-card-img3.png" alt="" class="status-card__img">
+						<p class="status-card__rate">4000</p>
+						<div class="status-card__block cashback-block">
+							<img src="images/cashback-img.png" alt="" class="cashback-block__img">
+							<p class="cashback-block__p">Кешбек</p>
+							<p class="cashback-block__bonus">3%</p>
+						</div>
+						<div class="status-card__block payouts-block">
+							<p class="payouts-block__p">Выплаты</p>
+							<div class="payouts-block-limits">
+								<div class="payouts-block-limits__block">
+									<p class="payouts-block-limits__title">Дневной лимит</p>
+									<p class="payouts-block-limits__count">1000</p>
+								</div>
+								<div class="payouts-block-limits__block">
+									<p class="payouts-block-limits__title">Дневной лимит</p>
+									<p class="payouts-block-limits__count">1000</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="status-card">
+						<p class="status-card__title">МАСТЕР</p>
+						<img src="images/status-card-img4.png" alt="" class="status-card__img">
+						<p class="status-card__rate">10000</p>
+						<div class="status-card__block cashback-block">
+							<img src="images/cashback-img.png" alt="" class="cashback-block__img">
+							<p class="cashback-block__p">Кешбек</p>
+							<p class="cashback-block__bonus">5%</p>
+						</div>
+						<div class="status-card__block payouts-block">
+							<p class="payouts-block__p">Выплаты</p>
+							<div class="payouts-block-limits">
+								<div class="payouts-block-limits__block">
+									<p class="payouts-block-limits__title">Дневной лимит</p>
+									<p class="payouts-block-limits__count">1000</p>
+								</div>
+								<div class="payouts-block-limits__block">
+									<p class="payouts-block-limits__title">Дневной лимит</p>
+									<p class="payouts-block-limits__count">1000</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="status-card">
+						<p class="status-card__title">УРОВЕНЬ БОГ</p>
+						<img src="images/status-card-img5.png" alt="" class="status-card__img">
+						<p class="status-card__rate">50000</p>
+						<div class="status-card__block cashback-block">
+							<img src="images/cashback-img.png" alt="" class="cashback-block__img">
+							<p class="cashback-block__p">Кешбек</p>
+							<p class="cashback-block__bonus">7%</p>
+						</div>
+						<div class="status-card__block payouts-block">
+							<p class="payouts-block__p">Выплаты</p>
+							<div class="payouts-block-limits">
+								<div class="payouts-block-limits__block">
+									<p class="payouts-block-limits__title">Дневной лимит</p>
+									<p class="payouts-block-limits__count">1000</p>
+								</div>
+								<div class="payouts-block-limits__block">
+									<p class="payouts-block-limits__title">Дневной лимит</p>
+									<p class="payouts-block-limits__count">1000</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="player-cabinet-content">
+			<div class="cashbox-block">
+				<div class="player-cabinet-sidebar-list__btn player-cabinet-sidebar-list__btn__active player-cabinet-sidebar-list__btn__mob">
+					<div class="player-cabinet-sidebar-list__btn__img-wrap">
+						<img src="images/sidebar-img5.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img5">
+						<img src="images/sidebar-img5-1.svg" alt=""
+								 class="player-cabinet-sidebar-list__btn__img5 player-cabinet-sidebar-list__btn__img-hover">
+					</div>
+					<p class="player-cabinet-sidebar-list__btn__text">Касса</p>
+				</div>
+				<div class="cashbox-block__header">
+					<p class="cashbox-block__header__p">Баланс <span>1200.0</span></p>
+				</div>
+				<div class="cashbox-tabs-header">
+					<div class="cashbox-tabs-header__item" data-cashbox-tabs="0">Пополнить
+						счет
+					</div>
+					<div class="cashbox-tabs-header__item cashbox-tabs-header__item__active" data-cashbox-tabs="1">Заказать
+						вывод
+					</div>
+					<div class="cashbox-tabs-header__item" data-cashbox-tabs="2">История
+						транзакций
+					</div>
+				</div>
+				<div class="cashbox-tabs-content">
+					<div class="cashbox-tabs-content__item d-none">
+						<div class="cashbox-tabs-content__wrap top-up-account-block">
+							<p class="top-up-account-block__title">Сумма пополнения</p>
+							<div class="cards-block">
+								<img src="images/MasterCard.svg" alt="" class="cards-block__img__master">
+								<img src="images/Visa.svg" alt="" class="cards-block__img__visa">
+							</div>
+							<div class="currency-block">
+								<div class="currency"><p class="currency-name">UAH:</p></div>
+								<input type="text" class="top-up-account-block__input" placeholder="Введите сумму">
+							</div>
+							<div class="currency-block">
+								<div class="currency"><p class="currency-name">USD:</p></div>
+								<input type="text" class="top-up-account-block__input">
+							</div>
+							<input type="text" class="top-up-account-block__input" placeholder="Имя и фамилия (латиница)">
+							<button class="order-withdrawal-block__btn order-withdrawal-block__btn__big">Пополнить</button>
+							<button class="btn-cansel">Отменить пополнение</button>
+						</div>
+					</div>
+					<div class="cashbox-tabs-content__item">
+						<div class="cashbox-tabs-content__wrap order-withdrawal-block">
+							<p class="order-withdrawal-block__p">Сумма вывода</p>
+							<input type="text" class="order-withdrawal-block__input" placeholder="Введите сумму">
+							<p class="order-withdrawal-block__p">Способ вывода</p>
+							<select id="office-select" class="select order-withdrawal-block__select">
+								<option>WebMoney UAH</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">43</option>
+							</select>
+							<p class="order-withdrawal-block__p">Номер карты</p>
+							<input type="text" class="order-withdrawal-block__input" placeholder="Введите номер карты">
+							<button class="order-withdrawal-block__btn">Отправить заявку</button>
+							<button class="order-withdrawal-block__btn__white">
+								<img src="images/btn-img.png" alt="">
+								Оставить чаевые
+							</button>
+						</div>
+						<div class="transactions-list">
+							<div class="cashbox-tabs-content__wrap transaction-card transaction-card-small">
+								<p class="transaction-card-header__p__big">Вывод</p>
+								<p class="transaction-card-header__p__small">Ожидание</p>
+								<div class="transaction-card-row">
+									<p class="transaction-card-text-bold">ID</p>
+									<p class="transaction-card-text-normal">#86</p>
+								</div>
+								<div class="transaction-card-row">
+									<p class="transaction-card-text-bold">Дата</p>
+									<p class="transaction-card-text-normal__sm">24/02/2021(14:23)</p>
+								</div>
+								<div class="transaction-card-row">
+									<p class="transaction-card-text-bold">Сумма</p>
+									<p class="transaction-card-text-normal__green">300 UAH</p>
+								</div>
+								<button class="transaction-card-small__btn">Отменить</button>
+							</div>
+							<div class="cashbox-tabs-content__wrap transaction-card transaction-card-small">
+								<p class="transaction-card-header__p__big">Вывод</p>
+								<p class="transaction-card-header__p__small">Ожидание</p>
+								<div class="transaction-card-row">
+									<p class="transaction-card-text-bold">ID</p>
+									<p class="transaction-card-text-normal">#86</p>
+								</div>
+								<div class="transaction-card-row">
+									<p class="transaction-card-text-bold">Дата</p>
+									<p class="transaction-card-text-normal__sm">24/02/2021(14:23)</p>
+								</div>
+								<div class="transaction-card-row">
+									<p class="transaction-card-text-bold">Сумма</p>
+									<p class="transaction-card-text-normal__green">300 UAH</p>
+								</div>
+								<button class="transaction-card-small__btn">Отменить</button>
+							</div>
+							<div class="cashbox-tabs-content__wrap transaction-card transaction-card-small">
+								<p class="transaction-card-header__p__big">Вывод</p>
+								<p class="transaction-card-header__p__small">Ожидание</p>
+								<div class="transaction-card-row">
+									<p class="transaction-card-text-bold">ID</p>
+									<p class="transaction-card-text-normal">#86</p>
+								</div>
+								<div class="transaction-card-row">
+									<p class="transaction-card-text-bold">Дата</p>
+									<p class="transaction-card-text-normal__sm">24/02/2021(14:23)</p>
+								</div>
+								<div class="transaction-card-row">
+									<p class="transaction-card-text-bold">Сумма</p>
+									<p class="transaction-card-text-normal__green">300 UAH</p>
+								</div>
+								<button class="transaction-card-small__btn">Отменить</button>
+							</div>
+						</div>
+					</div>
+					<div class="cashbox-tabs-content__item cashbox-tabs-content__item__w100 d-none">
+						<div class="transaction-history-block">
+							<div class="transaction-history-block__header">
+								<p class="transaction-history-block__header__p">История транзакций</p>
+							</div>
+							<div class="transaction-list">
+								<div class="cashbox-tabs-content__wrap transaction-card">
+									<div class="transaction-card-header">
+										<img src="images/transaction1.png" alt="" class="transaction-card-header__img">
+										<div>
+											<p class="transaction-card-header__p__black">Начисление бонусов</p>
+											<p class="transaction-card-header__p__green">Выполнена</p>
+										</div>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">ID</p>
+										<p class="transaction-card-text-normal">#86</p>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">Дата</p>
+										<p class="transaction-card-text-normal__sm">24/02/2021(14:23)</p>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">Сумма</p>
+										<p class="transaction-card-text-normal__green">300 UAH</p>
+									</div>
+								</div>
+								<div class="cashbox-tabs-content__wrap transaction-card">
+									<div class="transaction-card-header">
+										<img src="images/transaction1.png" alt="" class="transaction-card-header__img">
+										<div>
+											<p class="transaction-card-header__p__black">Начисление бонусов</p>
+											<p class="transaction-card-header__p__green">Выполнена</p>
+										</div>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">ID</p>
+										<p class="transaction-card-text-normal">#86</p>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">Дата</p>
+										<p class="transaction-card-text-normal__sm">24/02/2021(14:23)</p>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">Сумма</p>
+										<p class="transaction-card-text-normal__green">300 UAH</p>
+									</div>
+								</div>
+								<div class="cashbox-tabs-content__wrap transaction-card">
+									<div class="transaction-card-header">
+										<img src="images/transaction1.png" alt="" class="transaction-card-header__img">
+										<div>
+											<p class="transaction-card-header__p__black">Начисление бонусов</p>
+											<p class="transaction-card-header__p__green">Выполнена</p>
+										</div>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">ID</p>
+										<p class="transaction-card-text-normal">#86</p>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">Дата</p>
+										<p class="transaction-card-text-normal__sm">24/02/2021(14:23)</p>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">Сумма</p>
+										<p class="transaction-card-text-normal__green">300 UAH</p>
+									</div>
+								</div>
+								<div class="cashbox-tabs-content__wrap transaction-card">
+									<div class="transaction-card-header">
+										<img src="images/transaction1.png" alt="" class="transaction-card-header__img">
+										<div>
+											<p class="transaction-card-header__p__black">Начисление бонусов</p>
+											<p class="transaction-card-header__p__green">Выполнена</p>
+										</div>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">ID</p>
+										<p class="transaction-card-text-normal">#86</p>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">Дата</p>
+										<p class="transaction-card-text-normal__sm">24/02/2021(14:23)</p>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">Сумма</p>
+										<p class="transaction-card-text-normal__green">300 UAH</p>
+									</div>
+								</div>
+								<div class="cashbox-tabs-content__wrap transaction-card">
+									<div class="transaction-card-header">
+										<img src="images/transaction1.png" alt="" class="transaction-card-header__img">
+										<div>
+											<p class="transaction-card-header__p__black">Начисление бонусов</p>
+											<p class="transaction-card-header__p__green">Выполнена</p>
+										</div>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">ID</p>
+										<p class="transaction-card-text-normal">#86</p>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">Дата</p>
+										<p class="transaction-card-text-normal__sm">24/02/2021(14:23)</p>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">Сумма</p>
+										<p class="transaction-card-text-normal__green">300 UAH</p>
+									</div>
+								</div>
+								<div class="cashbox-tabs-content__wrap transaction-card">
+									<div class="transaction-card-header">
+										<img src="images/transaction1.png" alt="" class="transaction-card-header__img">
+										<div>
+											<p class="transaction-card-header__p__black">Начисление бонусов</p>
+											<p class="transaction-card-header__p__green">Выполнена</p>
+										</div>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">ID</p>
+										<p class="transaction-card-text-normal">#86</p>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">Дата</p>
+										<p class="transaction-card-text-normal__sm">24/02/2021(14:23)</p>
+									</div>
+									<div class="transaction-card-row">
+										<p class="transaction-card-text-bold">Сумма</p>
+										<p class="transaction-card-text-normal__green">300 UAH</p>
+									</div>
+								</div>
+							</div>
+							<div class="pagination-block">
+								<img src="images/pag.png" alt="" class="pagination-block__arrow">
+								<a href="#" class="pagination-block__page">1</a>
+								<a href="#" class="pagination-block__page pagination-block__page__active">2</a>
+								<a href="#" class="pagination-block__page">3</a>
+								<a href="#" class="pagination-block__page">4</a>
+								<a href="#" class="pagination-block__page">5</a>
+								<a href="#" class="pagination-block__page">6</a>
+								<img src="images/pag.png" alt="" class="pagination-block__arrow pagination-block__arrow__r">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="player-cabinet-content d-none">
+			<p class="player-cabinet-content__title">Мои бонусы</p>
+			<div class="player-cabinet-sidebar-list__btn player-cabinet-sidebar-list__btn__active player-cabinet-sidebar-list__btn__mob">
+				<div class="player-cabinet-sidebar-list__btn__img-wrap">
+					<img src="images/sidebar-img6.svg" alt=""
+							 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img6">
+					<img src="images/sidebar-img6-1.svg" alt=""
+							 class="player-cabinet-sidebar-list__btn__img6 player-cabinet-sidebar-list__btn__img-hover">
+				</div>
+				<p class="player-cabinet-sidebar-list__btn__text">Мои бонусы</p>
+			</div>
+			<div class="player-cabinet-bonuses-list">
+				<div class="cabinet-bonus-card cabinet-bonus-card__empty">
+					<div class="empty-wrap">
+						<p class="empty-text">На данный момент бонусы вам не доступны</p>
+					</div>
+				</div>
+				<div class="cabinet-bonus-card">
+					<img src="images/cabinet-bonus-card1.png" alt="" class="cabinet-bonus-card__img">
+					<div class="cabinet-bonus-card__name">Белое золото</div>
+					<div class="cabinet-bonus-card__footer">
+						<div class="block-bonuses-btns">
+							<div>300 UAH</div>
+							<div>x35</div>
+						</div>
+						<p class="cabinet-bonus-card__footer__p">За каждые <span>2 000 UAH</span> ставок в любимых слотах -
+							лотерейный билет в подарок. Приз гарантирован!</p>
+						<div class="cabinet-bonus-btns">
+							<button>Отменить</button>
+							<button>Забрать</button>
+						</div>
+					</div>
+				</div>
+				<div class="cabinet-bonus-card">
+					<img src="images/cabinet-bonus-card2.png" alt="" class="cabinet-bonus-card__img">
+					<div class="cabinet-bonus-card__name">Белое золото</div>
+					<div class="cabinet-bonus-card__footer">
+						<div class="block-bonuses-btns">
+							<div>300 UAH</div>
+							<div>x35</div>
+						</div>
+						<p class="cabinet-bonus-card__footer__p">За каждые <span>2 000 UAH</span> ставок в любимых слотах -
+							лотерейный билет в подарок. Приз гарантирован!</p>
+						<div class="cabinet-bonus-btns">
+							<button>Отменить</button>
+							<button>Забрать</button>
+						</div>
+					</div>
+				</div>
+				<div class="cabinet-bonus-card">
+					<img src="images/cabinet-bonus-card3.png" alt="" class="cabinet-bonus-card__img">
+					<div class="cabinet-bonus-card__name">Белое золото</div>
+					<div class="cabinet-bonus-card__footer">
+						<div class="block-bonuses-btns">
+							<div>300 UAH</div>
+							<div>x35</div>
+						</div>
+						<p class="cabinet-bonus-card__footer__p">За каждые <span>2 000 UAH</span> ставок в любимых слотах -
+							лотерейный билет в подарок. Приз гарантирован!</p>
+						<div class="cabinet-bonus-btns">
+							<button>Отменить</button>
+							<button>Забрать</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="player-cabinet-content d-none">
+			<p class="player-cabinet-content__title">Промокод</p>
+			<div class="player-cabinet-sidebar-list__btn player-cabinet-sidebar-list__btn__active player-cabinet-sidebar-list__btn__mob">
+				<div class="player-cabinet-sidebar-list__btn__img-wrap">
+					<img src="images/sidebar-img7.svg" alt=""
+							 class="player-cabinet-sidebar-list__btn__img player-cabinet-sidebar-list__btn__img7">
+					<img src="images/sidebar-img7-1.svg" alt=""
+							 class="player-cabinet-sidebar-list__btn__img7 player-cabinet-sidebar-list__btn__img-hover">
+				</div>
+				<p class="player-cabinet-sidebar-list__btn__text">Промокод</p>
+			</div>
+			<div class="promo-code">
+				<img src="images/promocode.png" alt="" class="promo-code__img">
+				<div class="promo-code__content">
+					<p class="promo-code__text">Если у Вас есть промокод, введите его и получите бонусы!</p>
+					<input type="text" class="promo-code__input">
+					<button class="promo-code__btn">Активировать</button>
+				</div>
+			</div>
+		</div>
+		<div class="block-manager-tel-social block-manager-tel-social__mob">
+			<p class="manager-text">Ваш менеджер</p>
+			<p class="manager-name">Громов Игорь</p>
+			<p class="manager-tel">Тел.: <a href="tel:+380991234567">+380991234567</a></p>
+			<div class="player-cabinet-sidebar-social">
+				<a href="#">
+					<img src="images/player-cabinet1.svg" alt="" class="player-cabinet-sidebar-social__img">
+				</a>
+				<a href="#">
+					<img src="images/player-cabinet2.svg" alt=""
+							 class="player-cabinet-sidebar-social__img player-cabinet-sidebar-social__img__2">
+				</a>
+				<a href="#">
+					<img src="images/player-cabinet3.svg" alt="" class="player-cabinet-sidebar-social__img">
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="footer">
+	<div class="container">
+		<div class="footer-info-nav">
+			<div class="address-email-block">
+				<p class="address-email-block__p">
+					<span class="address-email-block__span">Address:</span><br/>
+					267 Park Avenue New York, NY 90210</p>
+				<p class="address-email-block__p">
+					<span class="address-email-block__span">Email:</span><br/>
+					[email protected]</p>
+				<img src="images/address-email-img.png" alt="" class="address-email-block__img">
+			</div>
+			<div class="games-about-us-block">
+				<div class="games-block">
+					<p class="footer-title">Игры</p>
+					<div class="modal-scrollbar js-scrollbar js-scrollbar2 mCustomScrollbar _mCS_2">
+						<ul class="footer-list">
+							<li class="footer-list__item"><a href="#" class="footer-list__link">Популярные</a></li>
+							<li class="footer-list__item"><a href="#" class="footer-list__link">Новые</a></li>
+							<li class="footer-list__item"><a href="#" class="footer-list__link">Слоты</a></li>
+							<li class="footer-list__item"><a href="#" class="footer-list__link">Live игры</a></li>
+							<li class="footer-list__item"><a href="#" class="footer-list__link">Рулетки</a></li>
+							<li class="footer-list__item"><a href="#" class="footer-list__link">Карточные</a></li>
+							<li class="footer-list__item"><a href="#" class="footer-list__link">Карточные</a></li>
+							<li class="footer-list__item"><a href="#" class="footer-list__link">Карточные</a></li>
+							<li class="footer-list__item"><a href="#" class="footer-list__link">Карточные</a></li>
+							<li class="footer-list__item"><a href="#" class="footer-list__link">Карточные</a></li>
+							<li class="footer-list__item"><a href="#" class="footer-list__link">Карточные</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="about-us-social-block">
+					<p class="footer-title">О нас</p>
+					<ul class="footer-list footer-list-social">
+						<li class="footer-list__item"><a href="#" class="footer-list__link">О казино</a></li>
+						<li class="footer-list__item"><a href="#" class="footer-list__link">Конфиденциальность</a></li>
+						<li class="footer-list__item"><a href="#" class="footer-list__link">Лицензия</a></li>
+						<li class="footer-list__item"><a href="#" class="footer-list__link">Правила</a></li>
+					</ul>
+					<ul class="social-list">
+						<li class="social-list__item">
+							<a href="#" class="social-list__link">
+								<img src="images/ph.svg" alt="" class="social-list__img">
+								<img src="images/ph1.svg" alt="" class="social-list__img social-list__img__hover">
+							</a>
+						</li>
+						<li class="social-list__item">
+							<a href="#" class="social-list__link">
+								<img src="images/tg.svg" alt="" class="social-list__img">
+								<img src="images/tg1.svg" alt="" class="social-list__img social-list__img__hover">
+							</a>
+						</li>
+						<li class="social-list__item">
+							<a href="#" class="social-list__link">
+								<img src="images/vk.svg" alt="" class="social-list__img">
+								<img src="images/vk1.svg" alt="" class="social-list__img social-list__img__hover">
+							</a>
+						</li>
+						<li class="social-list__item">
+							<a href="#" class="social-list__link">
+								<img src="images/fb.svg" alt="" class="social-list__img">
+								<img src="images/fb1.svg" alt="" class="social-list__img social-list__img__hover">
+							</a>
+						</li>
+						<li class="social-list__item">
+							<a href="#" class="social-list__link">
+								<img src="images/yt.svg" alt="" class="social-list__img">
+								<img src="images/yt1.svg" alt="" class="social-list__img social-list__img__hover">
+							</a>
+						</li>
+						<li class="social-list__item">
+							<a href="#" class="social-list__link">
+								<img src="images/insta.svg" alt="" class="social-list__img">
+								<img src="images/insta1.svg" alt="" class="social-list__img social-list__img__hover">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-info-block">
+				<div>
+					<p class="footer-title">Помощь</p>
+					<ul class="footer-list">
+						<li class="footer-list__item"><a href="#" class="footer-list__link">Контакты</a></li>
+						<li class="footer-list__item"><a href="#" class="footer-list__link">Вопросы и ответы</a></li>
+						<li class="footer-list__item"><a href="#" class="footer-list__link">Как начать играть</a></li>
+					</ul>
+				</div>
+				<div class="footer-btns-block">
+					<button class="btn-main btn-main__blue" data-toggle="modal" data-target="#helpModal">Помощь</button>
+					<button class="btn-main btn-main__blue" data-toggle="modal" data-target="#requestCallModal">Заказать звонок
+					</button>
+				</div>
+			</div>
+		</div>
+		<img src="images/partners-img.png" alt="" class="partners-img">
+		<img src="images/partners-img-mob.png" alt="" class="partners-img partners-img__mob">
+	</div>
+</footer>
+<address class="footer-address">© 2021. Все права защищены</address>
+
+<img src="images/up-arrow.svg" alt="" class="up-arrow" id="upArrow">
+
+<div class="modal fade" id="requestCallModal" tabindex="-1" role="dialog" aria-labelledby="requestCallModal"
+		 aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<img src="images/request-close.svg" alt="" class="request-call__close" data-dismiss="modal" aria-label="Close">
+			<form class="form-request-call">
+				<p class="form-request-call__title">Мы вам перезвоним!</p>
+				<input type="text" class="form-request-call__field" placeholder="Имя">
+				<input type="tel" class="form-request-call__field" placeholder="Телефон">
+				<input type="email" class="form-request-call__field" placeholder="E-mail">
+				<button class="btn-main btn-main__red">Заказать звонок</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModal" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="chat-wrap">
+				<div class="chat-header">
+					<p class="chat-header__title">Напишите нам!</p>
+					<p class="chat-header__subtitle">Операторы онлайн</p>
+					<img src="images/chat-header-ing.svg" alt="" class="chat-header__img">
+					<img src="images/chat-close.svg" alt="" class="chat-header__close" data-dismiss="modal" aria-label="Close">
+				</div>
+				<div class="chat-messages-send-message">
+					<div class="chat-messages">
+						<div class="text-right">
+							<p class="chat-messages__message text-right">Здравствуйте!</p>
+						</div>
+						<div class="text-right">
+							<p class="chat-messages__message text-right">Мне нужна Ваша помощь!</p>
+						</div>
+						<div class="text-right">
+							<p class="chat-messages__message text-right">Вы можете мне помочь?</p>
+						</div>
+					</div>
+					<div class="chat-send-message-block">
+						<img src="images/chat-send.svg" alt="" class="chat-send-message-block__send">
+						<textarea class="chat-send-message-block__textarea" placeholder="Введите Ваше сообщение"></textarea>
+						<div class="send-message-naw">
+							<img src="images/message-naw1.svg" alt="" class="send-message-naw__first">
+							<img src="images/message-naw2.svg" alt="" class="send-message-naw__second">
+							<img src="images/message-naw3.svg" alt="" class="send-message-naw__third">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<img src="images/request-close.svg" alt="" class="login-modal__close" data-dismiss="modal" aria-label="Close">
+			<img src="images/login-img.png" alt="" class="login-bg">
+			<form class="form-login">
+				<p class="form-login__title">Вход</p>
+				<div class="form-login__row">
+					<label for="f1" class="form-login__label">E-mail</label>
+					<div class="form-login__input-wrap">
+						<input type="email" class="form-login__input" id="f1">
+					</div>
+				</div>
+				<div class="form-login__row">
+					<label for="f2" class="form-login__label">Пароль</label>
+					<div class="form-login__input-wrap">
+						<input type="password" class="form-login__input" id="f2">
+						<img src="images/login-img1.svg" alt="" class="form-login__img form-login__show-pass">
+					</div>
+				</div>
+				<div class="form-login__row2">
+					<div class="form-login__checkbox-wrap">
+						<input type="checkbox" class="form-login__checkbox" id="ex110">
+						<label class="form-login__checkbox__label" for="ex110">Запомнить меня</label>
+					</div>
+					<a href="#" class="form-login__a">Забыли пароль?</a>
+				</div>
+				<button class="form-login__btn">Войти</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModal"
+		 aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<img src="images/request-close.svg" alt="" class="login-modal__close" data-dismiss="modal" aria-label="Close">
+			<div class="register-modal-left">
+				<img src="images/form-register1.png" alt="" class="register-modal-left__img register-modal-left__img__1">
+				<!--				<img src="images/form-register2.png" alt="" class="register-modal-left__img register-modal-left__img__2">-->
+			</div>
+			<form class="form-login form-register">
+				<p class="form-login__title form-register__title">Регистрация</p>
+				<div class="form-login__row form-register__row">
+					<label for="f4" class="form-login__label form-register__label">Телефон</label>
+					<div class="form-login__input-wrap form-register__input-wrap">
+						<input id="phone" name="phone" type="tel">
+					</div>
+				</div>
+				<div class="form-login__row form-register__row">
+					<label for="f3" class="form-login__label form-register__label">Пароль</label>
+					<div class="form-login__input-wrap form-register__input-wrap">
+						<input type="password" class="form-login__input form-register__input" id="f3">
+						<img src="images/login-img1.svg" alt=""
+								 class="form-login__img form-login__show-pass form-register____show-pass">
+					</div>
+				</div>
+				<div class="form-login__row form-register__row">
+					<label for="f4" class="form-login__label form-register__label">E-mail</label>
+					<div class="form-login__input-wrap form-register__input-wrap">
+						<input type="email" class="form-login__input form-register__input" id="f4">
+					</div>
+				</div>
+				<div class="form-login__row form-register__row">
+					<label class="form-login__label form-register__label">Валюта</label>
+					<select class="js-selectize" name="city">
+						<option value="">UAH</option>
+						<option value="367">1</option>
+						<option value="340">2</option>
+						<option value="369">3</option>
+					</select>
+				</div>
+				<div class="form-register__row2">
+					<input type="checkbox" class="form-login__checkbox form-register__checkbox">
+					<p class="form-register__checkbox__p">Я прочитал и согласен с <br/><a href="#"
+																																								class="form-register__checkbox__a">Правилами
+						и условиями</a></p>
+				</div>
+				<button class="form-login__btn form-register__btn">Зарегистрироваться</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+				integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+				crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+				crossorigin="anonymous"></script>
+<script src="./js/jquery.mCustomScrollbar.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/bsnav.min.js"></script>
+<script src="./js/microplugin.js"></script>
+<script src="./js/sifter.js"></script>
+<script src="./js/selectize.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/intlTelInput.js"></script>
+<script>
+  var input = document.querySelector("#phone");
+  window.intlTelInput(input, {
+    // allowDropdown: false,
+    // autoHideDialCode: false,
+    // autoPlaceholder: "off",
+    // dropdownContainer: document.body,
+    // excludeCountries: ["ua"],
+    // formatOnDisplay: false,
+    // geoIpLookup: function(callback) {
+    //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+    //     var countryCode = (resp && resp.country) ? resp.country : "";
+    //     callback(countryCode);
+    //   });
+    // },
+    // hiddenInput: "full_number",
+    // initialCountry: "auto",
+    //  localizedCountries: { 'de': 'Deutschland' },
+    // nationalMode: false,
+    onlyCountries: ['ua', 'ru'],
+    // placeholderNumberType: "MOBILE",
+    preferredCountries: ['ua', 'jp'],
+    // separateDialCode: true,
+    utilsScript: "build/js/utils.js",
+  });
+</script>
+</body>
+</html>

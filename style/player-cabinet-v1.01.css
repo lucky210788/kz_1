@@ -1,0 +1,326 @@
+.cards-block {
+    margin: .73vw auto 1.51vw;
+}
+
+.cards-block__img__visa{
+height: 2.18vw;
+    margin: 0 .67vw;
+}
+
+.cards-block__img__master{
+    height: 2.29vw;
+    margin: 0 .67vw;
+}
+
+.cashbox-block {
+    width: 42.29vw;
+}
+
+.top-up-account-block {
+    padding: 1.35vw .52vw 3.95vw;
+}
+
+.top-up-account-block__input {
+    border-radius: 1.35vw;
+    padding: 0 1.35vw;
+    font-size: .93vw;
+    line-height: 2.7vw;
+    width: 24.5vw;
+    margin-bottom: 1.04vw;
+}
+
+.top-up-account-block__title {
+    font-size: .93vw;
+    font-weight: 600;
+    line-height: 1.3vw;
+    margin-bottom: 0;
+}
+
+.currency-block{
+    width: 24.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1.04vw;
+}
+
+.currency{
+    background: #FAFAFA;
+    border-radius: 1.35vw 0 0 1.35vw;
+    padding: .72vw .2vw .67vw 1.6vw;
+    width: 4.1vw;
+    height: 2.7vw;
+}
+
+.currency-block .top-up-account-block__input {
+    border-radius: 0 1.35vw 1.35vw 0;
+    width: 20.4vw;
+    margin-bottom: 0;
+    padding-left: 4.73vw;
+}
+
+.currency-name {
+    font-family: 'Open Sans Regular';
+    font-size: .93vw;
+    line-height: 1.3vw;
+    color: #D9534F;
+}
+
+.order-withdrawal-block__btn__big{
+    margin-top: 2.76vw;
+    margin-bottom: 1.25vw;
+    border-radius: 1.1vw;
+    font-size: 1.25vw;
+    line-height: 2.3vw;
+    padding: 0 2.3vw;
+}
+
+.btn-cansel {
+    font-family: 'Open Sans SemiBold';
+    font-size: .93vw;
+    line-height: 1.3vw;
+    color: #2F2F2F;
+    font-weight: 600;
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+
+.btn-cansel:hover {
+    text-decoration: none;
+}
+
+.cashbox-tabs-content__item{
+     width: 100%;
+}
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    .cashbox-block {
+        width: 100%;
+    }
+    .top-up-account-block {
+        padding: 6.3vw 6.3vw 10.8vw;
+    }
+    .top-up-account-block__title {
+        font-size: 4.7vw;
+        line-height: 4.7vw;
+    }
+    .cards-block__img__master {
+        height: 11.5vw;
+        margin: 0 3.4vw;
+    }
+    .cards-block__img__visa {
+        height: 11.02vw;
+        margin: 0 3.4vw;
+    }
+    .cards-block {
+        margin: 2.4vw auto 2.6vw;
+    }
+    .btn-cansel {
+        font-size: 4.7vw;
+        line-height: 6.3vw;
+    }
+    .order-withdrawal-block__btn__big {
+        margin-top: 7.87vw;
+        margin-bottom: 8.4vw;
+        border-radius: 5.7vw;
+        font-size: 6.3vw;
+        line-height: 11.8vw;
+        padding: 0 11.8vw;
+    }
+    .top-up-account-block__input {
+        border-radius: 6.8vw;
+        padding: 0 2.6vw;
+        font-size: 4.2vw;
+        line-height: 13.6vw;
+        width: 78.7vw;
+        margin-bottom: 5.5vw;
+    }
+    .currency-block .top-up-account-block__input {
+        border-radius: 0 6.8vw 6.8vw 0;
+        width: 58vw;
+        padding-left: 1.3vw;
+    }
+    .currency-block {
+        width: 78.7vw;
+        margin-bottom: 5.5vw;
+    }
+    .currency {
+        border-radius: 6.8vw 0 0 6.8vw;
+        padding: 4.19vw 2.6vw 2.88vw 6.8vw;
+        width: 20.7vw;
+        height: 13.6vw;
+    }
+    .currency-name {
+        font-size: 4.7vw;
+        line-height: 4.9vw;
+    }
+    .cashbox-tabs-header__item {
+        padding: 0 5.3vw;
+    }
+    .order-withdrawal-block__input {
+        border-radius: 6.8vw;
+        padding: 0 7.3vw;
+        font-size: 4.2vw;
+        line-height: 13.62vw;
+        margin-bottom: 3.1vw;
+    }
+    .select + .order-withdrawal-block__p {
+        margin-top: 2.5vw;
+    }
+    .select-styled {
+        border-radius: 6.8vw;
+        padding: 0 7.3vw;
+        font-size: 4.2vw;
+        height: 13.62vw;
+        width: 100%;
+    }
+    .select-styled:after {
+        right: 6.4vw;
+        width: 18px;
+        height: 9px;
+    }
+    .select-styled.active {
+        border-radius: 6.8vw 6.8vw 0 0;
+    }
+    .select-options {
+        border-radius: 0 0 6.8vw 6.8vw;
+    }
+    .select-options li {
+        padding: 0 7.3vw;
+        font-size: 4.2vw;
+        height:  13.62vw;
+    }
+    .order-withdrawal-block__select {
+        height: 13.62vw;
+    }
+    .order-withdrawal-block__btn {
+        border-radius: 6vw;
+        font-size: 3.67vw;
+        line-height: 11.8vw;
+        padding: 0 9.4vw;
+    }
+    .order-withdrawal-block__btn__white {
+        border-radius: 6vw;
+        font-size: 3.4vw;
+        line-height: 11.8vw;
+        padding: 0 7.2vw 0 3.9vw;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.cards-block {*/
+/*    margin: 14px auto 29px;*/
+/*}*/
+
+/*.cards-block__img__visa{*/
+/*    height: 42px;*/
+/*    margin: 0 13px;*/
+/*}*/
+
+/*.cards-block__img__master{*/
+/*    height: 44px;*/
+/*    margin: 0 13px;*/
+/*}*/
+
+/*.cashbox-block {*/
+/*    width: 812px;*/
+/*}*/
+
+/*.top-up-account-block {*/
+/*    padding: 26px 10px 76px;*/
+/*}*/
+
+/*.top-up-account-block__input {*/
+/*    border-radius: 26px;*/
+/*    padding: 0 26px;*/
+/*    font-size: 18px;*/
+/*    line-height: 52px;*/
+/*    width: 471px;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.top-up-account-block__title {*/
+/*    font-size: 18px;*/
+/*    font-weight: 600;*/
+/*    line-height: 25px;*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+/*.currency-block{*/
+/*    width: 471px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: flex-start;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.currency{*/
+/*    background: #FAFAFA;*/
+/*    border-radius: 26px 0 0 26px;*/
+/*    padding: 14px 4px 13px 31px;*/
+/*    width: 79px;*/
+/*    height: 52px;*/
+/*}*/
+
+/*.currency-block .top-up-account-block__input {*/
+/*    border-radius: 0 26px 26px 0;*/
+/*    width: 392px;*/
+/*    margin-bottom: 0;*/
+/*    padding-left: 91px;*/
+/*}*/
+
+/*.currency-name {*/
+/*    font-family: 'Open Sans Regular';*/
+/*    font-size: 18px;*/
+/*    line-height: 25px;*/
+/*    color: #D9534F;*/
+/*}*/
+
+/*.order-withdrawal-block__btn__big{*/
+/*    margin-top: 53px;*/
+/*    margin-bottom: 24px;*/
+/*    border-radius: 22.5188px;*/
+/*    font-size: 24px;*/
+/*    line-height: 45px;*/
+/*    padding: 0 45px;*/
+/*}*/
+
+/*.btn-cansel {*/
+/*    font-family: 'Open Sans SemiBold';*/
+/*    font-size: 18px;*/
+/*    line-height: 25px;*/
+/*    color: #2F2F2F;*/
+/*    font-weight: 600;*/
+/*    border: none;*/
+/*    background: none;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*.btn-cansel:hover {*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.cashbox-tabs-content__item{*/
+/*    width: 100%;*/
+/*}*/
+
+
+
+
